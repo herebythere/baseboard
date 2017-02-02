@@ -1,0 +1,286 @@
+/* CSS template for a generic place to start new
+projects. Styled just enough for cross broswer
+uniforminty. There is no real contextual styling
+like fonts, colors, or form.
+
+Hope it helps!
+*/
+
+
+/* Semantic Sections */
+body {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #ffffff;
+}
+
+main {
+	display: block;
+	margin: 0px 1em 0px 1em;
+	padding: 0px;
+	border: 0px;
+}
+
+	@media (min-width: 600px) {
+		main {
+			margin: 0px auto 0px auto;
+			width: 95%;
+			max-width: 700px;
+		}
+	}
+
+	@media (min-width: 800px) {
+		main {
+			width: 90%;
+			max-width: 800px;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		main {
+			width: 80%;
+			max-width: 1000px;
+		}
+	}
+
+header, footer, nav, menu, section, hgroup,
+article, details, aside, blockquote, address {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+menu {
+	list-style: none;
+}
+
+address {
+	font-style: normal;
+}
+
+
+hr {
+	display: block;
+	height: 1px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #aaaaaa;
+}
+
+/* Tables & Lists */
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+
+dl, ul {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style: none;
+}
+
+ul > li:before {
+	content: '-';
+}
+
+ol {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style-position: inside;
+}
+
+
+
+/* Links */
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #009fab;
+	cursor: pointer;
+}
+
+
+/* Text Styling */
+h1, h2, h3, h4, h5, h6 {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+p {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: 0px;
+	line-height: 1em;
+}
+
+em, i {
+	font-style: italic;
+}
+
+strong {
+	font-style: bold;
+}
+
+mark {
+	background-color: #dddddd;
+}
+
+code, samp, kbd, var {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: monospace;
+}
+
+pre {
+	display: block;
+	margin: 0px;
+	padding: 1em;
+	border: 1px solid #aaaaaa;
+	border-radius: 4px;
+	overflow-x: auto;
+}
+
+details {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+summary {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary::before {
+	content: '+';
+	padding-right: 1em;
+}
+
+details[open] > summary::before {
+	content: '-';
+	padding-right: 1em;
+}
+
+
+
+/* Forms */
+form {
+	display: block;
+	margin: 0px 0px 1em 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+fieldset {
+	display: block;
+	margin: 0px 0px 1em 0px;
+	border: 0px;
+}
+
+legend {
+	display: block;
+	margin: 0px 0px 1em 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+label {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+input, select {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+input[type="button"], input[type="reset"],
+input[type="submit"] {
+	width: 150px;
+}
+
+input]type="range"] {
+	
+}
+
+label > input {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+label > label {
+	display: inline;
+	margin: 0px 5px 0px 5px;
+	padding: 0px;
+	border: 0px;
+}
+
+textarea {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0.5em 0.25em 0.5em 0.25em;
+	border: 1px solid #aaaaaa;
+}
+
+
+/* Media */
+figure, figcaption {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+audio, video, img, canvas, iframe {
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+/* Helper Calsses */
+/* Be sure to remove before actually publishing you CSS */
+
+/* Responsive Media Calls */
+@media (min-width: 500px) {
+
+}
+
+@media (min-width: 700px) {
+
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+

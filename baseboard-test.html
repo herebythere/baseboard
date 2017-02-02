@@ -1,0 +1,282 @@
+<!DOCTYPE>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<title>Baseboard Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+	<link rel="stylesheet" href="baseboard.css"/>
+	<script src="../static/simple-canvas.js"></script>
+</head>
+
+
+<body onload="draw();">
+
+<main>
+<h4>Semantic Elements</h4>
+
+<hgroup>
+This is an hgroup.
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+</hgroup>
+
+<section>
+This is a section.
+</section> 
+<article>
+This is an article.
+</article>
+<header>
+This is a header.
+</header>
+<footer>
+This is a footer.
+</footer>
+<nav>
+This is a nav.
+</nav>
+<menu>
+This is a menu.
+</menu>
+<details>
+<summary>Some Details</summary>
+This is a detail element.
+</details>
+<aside>
+This is an aside.
+</aside>
+<address>
+This is an address.
+</address>
+<div>
+This is a div.
+</div>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph with <em>emphasized</em> text.</p>
+<p>This is a paragraph with <i>italicized</i> text.</p>
+<p>This is a paragraph with <strong>strong</strong> text.</p>
+<p>This is a paragraph with <mark>marked</text> text.</p>
+<p>This is a paragraph with a <a href="">link</a>.</p>
+
+<blockquote>This is a block quote.</blockquote>
+
+<aside>This is an aside.</aside>
+<hr>
+
+<h4>Lists </h4>
+<ol>ordered list
+	<li>one</li>
+	<li>two</li>
+	<li>three</li>
+</ol>
+
+<ul>unordered list
+	<li>one</li>
+	<li>two</li>
+	<li>three</li>
+</ul>
+
+<dl>discriptive list
+	<li>one</li>
+	<li>two</li>
+	<li>three</li>
+</dl>
+
+
+<h4>Tables</h4>
+<p>This is a table</p>
+<table>
+	<thead>
+		<tr>
+			<th>header1</th>
+			<th>header2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>body1-0</td>
+			<td>body2-0</td>
+		</tr>
+		<tr>
+			<td>body1-1</td>
+			<td>body2-1</td>
+		</tr>
+		<tr>
+			<td>body1-2</td>
+			<td>body2-2</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>footer1</td>
+			<td>footer2</td>
+		</tr>
+	</tfoot>
+
+</table>
+
+<h4>Code</h4>
+<p>Here is some <code>code</code> yo.</p>
+<p>Here is some more code:</p>
+
+<pre><code>//comments
+object = new thing();
+object.init("do stuff");
+//heres a really really long comment to maybe trigger the overflow-x to see what it looks like.</code>
+</pre>
+
+<h4>Media</h4>
+<p>here is some media</p>
+<figure>
+	<img src="../static/camera.png" alt="camer">
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+<figure>
+	<img src="../static/pocketwatch.jpg" alt="pocket watch">
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the type of file.
+	</figcaption>
+</figure>
+
+<figure>
+	<img src="../static/glasses.gif" alt="glasses.gif">
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+<figure>
+	<object type="image/svg+xml" data="../static/pirate-ship.svg" alt="glasses.gif">
+	</object>
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+<figure>
+	<video controls>
+		<source src="../static/electric-sheep.ogv" type="video/ogg">
+		<source src="../static/electric-sheep.mp4" type="video/mp4">
+		your browser doesn't support this video!
+	</video>
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+<figure>
+	<audio controls>
+		<source src="../static/church-organ.off" type="audio/ogg">
+		<source src="../static/church-organ.wav" type="audio/wav">
+		your browser doesn't support this video!
+	</audio>
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+<figure>
+	<canvas id="tutorial" onresize="draw();">
+	</canvas>
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+<figure>
+	<iframe src="http://www.w3schools.com">
+		<p>your browser doesn't support iframes.
+	</iframe>
+	<figcaption>This is a caption.<br>
+		It could say the author's name.<br>
+		Or the date it was made.
+	</figcaption>
+</figure>
+
+
+<h4>Inputs</h4>
+<label>Text</label>
+<input type="text">
+<label>Email</label>
+<input type="email" id="emails" required="required">
+<label><input type="radio">Radio</label>
+<label> <input type="checkbox">Checkbox</label>
+
+
+<label>Radios</label>
+<label>
+<input type="radio" name="num"><label for="radios">rad1</label>
+<input type="radio" name="num"><label for="radios">rad2</label>
+<input type="radio" name="num"><label for="radios">rad3</label>
+<input type="radio" name="num"><label for="radios">rad4</label>
+</label>
+
+
+<label>Checkboxes</label>
+<label for="checks">
+	<input type="checkbox"><label>checkbox1</label>
+	<input type="checkbox"><label>checkbox2</label>
+	<input type="checkbox"><label>checkbox3</label>
+	<input type="checkbox"><label>checkbox4</label>
+</label>
+
+<label>Color</label>
+<input type="color">
+<label>Select</label>
+<select>
+	<option>yo</option>
+	<option>dawg</option>
+	<option>whats</option>
+	<option>good</option>
+</select>
+<label>Date</label>
+<input type="date">
+<label>File</label>
+<input type="file">
+<label>Password</label>
+<input type="password">
+<label>Range</label>
+<input type="range">
+<label>Search</label>
+<input type="search">
+<label>Tel</label>
+<input type="tel">
+<label>Date</label>
+<input type="date">
+<label>Time</label>
+<input type="time">
+<label>Url</label>
+<input type="url">
+<label>Textarea</label>
+<textarea>
+</textarea>
+
+<h4>Buttons</h4>
+<input type="button" value="Button">
+<input type="button" value="this button has a long title just to see what it does">
+<input type="reset">
+<input type="submit">
+
+</main>
+
+
+</body>
+
+</html>
