@@ -105,18 +105,7 @@ textarea {
 /* Be sure to remove before actually publishing you CSS */
 
 /* Responsive Media Calls */
-@media (min-width: 500px) {
-
-}
-
-@media (min-width: 700px) {
-
-}
-
-@media (min-width: 1000px) {
-
-}
-
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 500px) { }
+@media (min-width: 700px) { }
+@media (min-width: 1000px) { }
+@media (min-width: 1200px) { }
