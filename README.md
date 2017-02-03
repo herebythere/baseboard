@@ -2,20 +2,39 @@
 
 ##Abstract##
 
-A comfortable place to start creating new CSS templates.
+A comfortable place to start new CSS templates.
 
-Check out the [demo](). It's as ugly as it should be.
+Check out the [demo](http://taylor-vann.github.io/baseboard). It's as ugly as it should be. 
 
 ##Details##
 
-Baseboard provides an easy and safe place to begin creating new custom CSS templates. This compact stylesheet is meant for the developer who doesn't want (or need) a bulky boilerplate but also doesn't want to start from scratch. This template is the result of more than a few headaches and hopefully the solution to a few of yours. 
+Terrible, right? Now compare it to the [same page](http://taylor-vann.github.io/baseboard/example/) without Baseboard. This is how you browser styles these elements by default. Now remember the little browser differences across plateforms and operatiing systems. Suddenly, the squished uniform demo doesn't seem to bad.
 
-There are initial styling differences between browsers and operating system that usually go unoticed *until* it's a problem. This stylesheet attempts to fix that. It is not about fonts, colors, menus, or making your website *pretty*.
+This compact stylesheet is meant for the developer who doesn't want (or need) a bulky boilerplate but also doesn't want to start from scratch. It's the result of more than a few headaches and hopefully the solution to a few of yours. Starting from nothing isn't so bad with Baseboard. 
 
-The primary function of *Baseboard* is to create a common starting point for the most useful, semantic and functional HTML5 elements. The secondary function is to provide helpful classes that bring a little of the functionality expected of larger boilerplates. 
+Initial styling differences between browsers and operating system usually go unoticed *until* it's a problem. This stylesheet attempts to fix that. It is not about fonts, colors, menus, or making your website *pretty*. 
 
-The purpose of *Baseboard* is to isolate future problems to just your declarations. The goal is to give design engineers and developers a little more control and a fair blank-slate.
+Function, flow, and the user experience should be purposefully delegated by a design teams and not libraries or trend fonts. This minimal stylesheet capitalizes on this philosophy and lets you begin from (almost) nothing.
+
+Baseboard is a cross-platform starting point for the most useful, semantic and functional HTML5 elements. This minimal stylesheet is intended to be the foundation of smaller mobile-first and BEM style projects.
+
+The purpose of Baseboard is to isolate the developement process to just your declarations. The goal is to give design engineers and developers a little more control and a fair blank-slate.
 
 I hope it helps!
 
 ##Usage##
+
+Grab the `baseboard.css` from the src director and copy into your resources folder or project directory.
+
+To link custom fonts add your '@font-faces' at the beginning of the document after you see:
+
+`/*Put your @font-faces here.*/`
+
+Add your custom declarations after you see:
+
+`/* Put your custom classes here. */`
+
+Remember to delete the unused helper classes or media queries when you push your final solutions.
+
+##License##
+Baseboard is released under the [MIT License]() and is intended to be used for students and small startups.

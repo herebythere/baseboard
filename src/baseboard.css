@@ -1,75 +1,70 @@
-/* Semantic Elements */
-body, main, header, footer, nav, menu, section, div, hgroup, article,
-details, aside, blockquote, address, hr, table, caption, dl, ul, ol,
-h1, h2, h3, h4, h5, h6, p, details, summary, pre, figure, figcaption,
-audio, video, img, canvas, iframe, form, fieldset, legend, label, textarea {
+/* Put your @font-faces here... */
+/* Document Declarations */
+html { }
+body { font-size: 100%; margin: 0px; padding: 0px; }
+
+/* Universal Declarations Semantic Elements */
+main, header, footer, nav, menu, section, article, div,
+details, summary, aside, blockquote, address, hr, dl, ul, ol, li,
+table, caption, th, tr, col, colgroup, td, thead, tbody, tfoot, 
+hgroup, h1, h2, h3, h4, h5, h6, p, pre, code, samp, kbd, var,
+cite, em, i, dfn, strong, ins, u, mark, del, s, q,
+figure, figcaption, object, audio, video, img, canvas, iframe, 
+form, fieldset, legend, label, textarea {
 	display: block;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
 	line-height: 1em;
 	box-sizing: border-box;
 }
 
-/* Baseline Semantic Element Declarations */
+/* Baseboard Semantic Element Declarations */
 body { background-color: #ffffff; }
 menu { list-style: none; }
 address { font-style: normal; }
+hr { height: 1px; background-color: #bbbbbb; border: 0px; }
 
-hr {
-	height: 1px;
-	background-color: #bbbbbb;
-}
-
-/* Baseline List & Table Declarations */
+/* Baseboard List & Table Declarations */
+table { border-collapse: collapse; border-spacing: 0px; }
+caption { display: block; text-align: left; }
+thead { display: table-header-group; }
+tbody { display: table-row-group; }
+tfoot { display: table-footer-group; }
+th, td { display: table-cell; }
+tr { display: table-row; }
 dl { list-style: none; }
 ul { list-style: circle inside; }
 ol { list-style: decimal inside; }
+li { display: list-item; }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0px;
-}
-
-caption {
-	display: block;
-	text-align: left;
-}
-
-/* Baseline Link Declarations */
-a, a:hover, a:active, a:visited {
+/* Baseboard Link Declarations */
+a, a:hover, a:active, a:visited { 
 	text-decoration: none;
-	color: #009fab;
+	color: #4286f4;
 	cursor: pointer;
 }
 
-/* Baseline Text Styling Declarations */
+/* Baseboard Text Styling Declarations */
+pre { padding: 1px; overflow-x: auto; }
 cite, em, i, dfn { font-style: italic; }
-strong { font-style: bold; }
-ins { text-decoration: underline; }
+strong { font-weight: bold; }
+ins, u { text-decoration: underline; }
 mark { background-color: #dddddd; }
-del { text-decoration: line-through; }
-q { display: inline; }
-
-pre {
-	padding: 1em 0px 1em 0px;
-	overflow-x: auto;
-}
-
-code, samp, kbd, var {
+del, s { text-decoration: line-through; }
+code, samp, kbd, var { font-family: monospace; }
+cite, em, i, dfn, strong, ins, u, mark, del, 
+s, q, code, samp, kbd, var {
 	display: inline;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	font-family: monospace;
 }
 
-/* Baseline Form Declarations */
+/* Baseboard Form Declarations */
 input, button, select { display: block; }
 label { display: inline; }
 textarea { border: 1px solid #aaaaaa };
-
-/* Baseline Media Declarations */
 
 
 /* Put your custom classes here */
@@ -77,8 +72,11 @@ textarea { border: 1px solid #aaaaaa };
 
 
 /* Helper Calsses */
-/* Be sure to remove before actually publishing you CSS */
+/* Be sure to remove before actually publishing your CSS */
 
+/* Grid */
+.clear { clear: both; }
+.
 /* Responsive Media Calls */
 /* Vertical Calls */
 @media (min-width: 500px) { }
