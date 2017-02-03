@@ -12,13 +12,13 @@ Terrible, right? Now compare it to the same [page](https://taylor-vann.github.io
 
 This compact, less than 75-line, style-sheet is meant for the developer who doesn't want (or need) a bulky boilerplate but also doesn't want to start from scratch. It's the result of more than a few headaches and hopefully the solution to a few of yours.
 
-Initial styling differences between browsers usually go unnoticed *until* it's a problem. This style-sheet attempts to fix that. It's not about fonts, colors, holding your hand, or making your website *pretty*. Is is a cross-platform starting point for the most useful and semantic HTML5 elements.
+Initial styling differences between browsers usually go unnoticed *until* it's a problem. This style-sheet attempts to fix that. It's not about fonts, colors, holding your hand, or making your website pretty. It is a cross-platform start for the most useful and semantic HTML5 elements.
 
 Function, flow, and the user experience should be purposefully deliberated by a design teams and not libraries or trend fonts. This minimal stylesheet capitalizes on this philosophy and lets you begin from (almost) nothing.
 
 The purpose of Baseboard is to isolate the development process to just your declarations. The goal is to give design engineers and developers a little more control and a fair blank-slate.
 
-Starting from nothing doesn't have to be so bad.
+Making CSS from scratch doesn't have to be so bad.
 
 ##Usage##
 
