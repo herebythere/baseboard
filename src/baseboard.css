@@ -1,4 +1,4 @@
-/* Baseboard v0.1 | Brian Taylor Vann - Jan 2017 | MIT License */
+/* Baseboard v0.1 | Brian Taylor Vann - Jan 2017 | For use with MIT License */
 
 /* Put your @font-faces here... */
 
@@ -7,7 +7,7 @@ html { }
 body { font-size: 100%; margin: 0px; padding: 0px; }
 
 /* Universal Declarations Semantic Elements */
-main, header, footer, nav, menu, section, article, div,
+main, header, footer, nav, menu, section, article, div, a,
 details, summary, aside, blockquote, address, hr, dl, ul, ol, li,
 table, caption, th, tr, col, colgroup, td, thead, tbody, tfoot, 
 hgroup, h1, h2, h3, h4, h5, h6, p, pre, code, samp, kbd, var,
@@ -45,11 +45,7 @@ ol { list-style: decimal inside; }
 li { display: list-item; }
 
 /* Baseboard Link Declarations */
-a, a:hover, a:active, a:visited { 
-	text-decoration: none;
-	color: #4286f4;
-	cursor: pointer;
-}
+a { display: inline; }
 
 /* Baseboard Text Styling Declarations */
 pre { padding: 1px; overflow-x: auto; }
@@ -59,8 +55,7 @@ ins, u { text-decoration: underline; }
 mark { background-color: #dddddd; }
 del, s { text-decoration: line-through; }
 code, samp, kbd, var { font-family: monospace; }
-cite, em, i, dfn, strong, ins, u, mark, del, 
-s, q, code, samp, kbd, var {
+cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 	display: inline;
 }
 
@@ -73,3 +68,15 @@ textarea { border: 1px solid #aaaaaa };
 /* Put your custom classes here */
 
 
+
+/* 
+ * Helper Classes & Media Queries,
+ * Remember to Remove unused queries 
+ * before you publish you solutions 
+ * */
+
+/* Responsive media queries by width */
+@media (min-width: 500px) { }
+@media (min-width: 700px) { }
+@media (min-width: 1000px) { }
+@media (min-width: 1200px) { }
