@@ -1,14 +1,14 @@
 /* Semantic Elements */
-body, main, header, footer, nav, menu, section, div,
-hgroup, article, details, aside, blockquote, address,
-hr, table, caption, dl, ul, ol, h1, h2, h3, h4, h5, h6,
-p, details, summary, figure, figcaption, audio, video,
-img, canvas, iframe, form, fieldset, legend, label {
+body, main, header, footer, nav, menu, section, div, hgroup, article,
+details, aside, blockquote, address, hr, table, caption, dl, ul, ol,
+h1, h2, h3, h4, h5, h6, p, details, summary, pre, figure, figcaption,
+audio, video, img, canvas, iframe, form, fieldset, legend, label, textarea {
 	display: block;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 	line-height: 1em;
+	box-sizing: border-box;
 }
 
 /* Baseline Semantic Element Declarations */
@@ -18,13 +18,13 @@ address { font-style: normal; }
 
 hr {
 	height: 1px;
-	background-color: #aaaaaa;
+	background-color: #bbbbbb;
 }
 
 /* Baseline List & Table Declarations */
-dl, ul { list-style: none; }
-ul > li:before { content: '-'; }
-ol { list-style-position: inside; }
+dl { list-style: none; }
+ul { list-style: circle inside; }
+ol { list-style: decimal inside; }
 
 table {
 	border-collapse: collapse;
@@ -36,14 +36,12 @@ caption {
 	text-align: left;
 }
 
-
 /* Baseline Link Declarations */
 a, a:hover, a:active, a:visited {
 	text-decoration: none;
 	color: #009fab;
 	cursor: pointer;
 }
-
 
 /* Baseline Text Styling Declarations */
 cite, em, i, dfn { font-style: italic; }
@@ -53,6 +51,11 @@ mark { background-color: #dddddd; }
 del { text-decoration: line-through; }
 q { display: inline; }
 
+pre {
+	padding: 1em 0px 1em 0px;
+	overflow-x: auto;
+}
+
 code, samp, kbd, var {
 	display: inline;
 	margin: 0px;
@@ -61,51 +64,30 @@ code, samp, kbd, var {
 	font-family: monospace;
 }
 
-pre {
-	display: block;
-	margin: 0px;
-	padding: 1em;
-	border: 1px solid #aaaaaa;
-	border-radius: 4px;
-	overflow-x: auto;
-}
-
-
 /* Baseline Form Declarations */
-input, button, select {
-	display: block;
-	margin: 0px 0px 0px 0px;
-	padding: 0px;
-}
-
-label > input {
-	display: inline;
-	margin: 0px;
-	padding: 0px;
-}
-
-label > label {
-	display: inline;
-	margin: 0px 5px 0px 5px;
-	padding: 0px;
-	border: 0px;
-}
-
-textarea {
-	display: block;
-	margin: 0px 0px 0px 0px;
-	border: 1px solid #aaaaaa;
-}
-
+input, button, select { display: block; }
+label { display: inline; }
+textarea { border: 1px solid #aaaaaa };
 
 /* Baseline Media Declarations */
+
+
+/* Put your custom classes here */
+
 
 
 /* Helper Calsses */
 /* Be sure to remove before actually publishing you CSS */
 
 /* Responsive Media Calls */
+/* Vertical Calls */
 @media (min-width: 500px) { }
 @media (min-width: 700px) { }
 @media (min-width: 1000px) { }
 @media (min-width: 1200px) { }
+
+/* Horizontal Calls */
+@media (min-width: 500px) and (min-height: 500px) { }
+@media (min-width: 700px) and (min-height: 700px) { }
+@media (min-width: 1000px) and (min-height: 1000px) { }
+@media (min-width: 1200px) and (min-height: 1200px) { }

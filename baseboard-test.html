@@ -6,7 +6,7 @@
 	<meta charset="utf-8"/>
 	<title>Baseboard Test</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-	<link rel="stylesheet" href="baseboard.css"/>
+	<link rel="stylesheet" href="src/baseboard.css"/>
 	<script src="../static/simple-canvas.js"></script>
 </head>
 
@@ -45,7 +45,7 @@ This is a nav.
 This is a menu.
 </menu>
 <details>
-<summary>Some Details</summary>
+<summary>This is a summary</summary>
 This is a detail element.
 </details>
 <aside>
@@ -63,13 +63,16 @@ This is a div.
 <p>This is a paragraph with <i>italicized</i> text.</p>
 <p>This is a paragraph with <cite>cited</cite> text.</p>
 <p>This is a paragraph with <strong>strong</strong> text.</p>
-<p>This is a paragraph with <mark>marked</text> text.</p>
+<p>This is a paragraph with <mark>marked</marked> text.</p>
+<p>This is a paragraph with <q>quoted</q> text.</p>
 <p>This is a paragraph with a <a href="">link</a>.</p>
 
 <blockquote>This is a block quote.</blockquote>
-
 <aside>This is an aside.</aside>
+
+
 <hr>
+
 
 <h4>Lists </h4>
 <ol>ordered list
@@ -89,6 +92,9 @@ This is a div.
 	<li>two</li>
 	<li>three</li>
 </dl>
+
+
+<hr>
 
 
 <h4>Tables</h4>
@@ -123,6 +129,10 @@ This is a div.
 
 </table>
 
+
+<hr>
+
+
 <h4>Code</h4>
 <p>Here is some <code>code</code> yo.</p>
 <p>Here is some more code:</p>
@@ -133,38 +143,34 @@ object.init("do stuff");
 //heres a really really long comment to maybe trigger the overflow-x to see what it looks like.</code>
 </pre>
 
+
+<hr>
+
+
 <h4>Media</h4>
 <p>here is some media</p>
 <figure>
 	<img src="../static/camera.png" alt="camer">
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about a PNG.<br>
 	</figcaption>
 </figure>
 
 <figure>
 	<img src="../static/pocketwatch.jpg" alt="pocket watch">
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the type of file.
+	<figcaption>This is a caption about a JPG.<br>
 	</figcaption>
 </figure>
 
 <figure>
 	<img src="../static/glasses.gif" alt="glasses.gif">
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about an GIF.<br>
 	</figcaption>
 </figure>
 
 <figure>
 	<object type="image/svg+xml" data="../static/pirate-ship.svg" alt="glasses.gif">
 	</object>
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about an SVG.<br>
 	</figcaption>
 </figure>
 
@@ -174,9 +180,7 @@ object.init("do stuff");
 		<source src="../static/electric-sheep.mp4" type="video/mp4">
 		your browser doesn't support this video!
 	</video>
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about a Video.<br>
 	</figcaption>
 </figure>
 
@@ -186,18 +190,14 @@ object.init("do stuff");
 		<source src="../static/church-organ.wav" type="audio/wav">
 		your browser doesn't support this video!
 	</audio>
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about some Audio.<br>
 	</figcaption>
 </figure>
 
 <figure>
 	<canvas id="tutorial" onresize="draw();">
 	</canvas>
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about a Canvas.<br>
 	</figcaption>
 </figure>
 
@@ -205,11 +205,12 @@ object.init("do stuff");
 	<iframe src="http://www.w3schools.com">
 		<p>your browser doesn't support iframes.
 	</iframe>
-	<figcaption>This is a caption.<br>
-		It could say the author's name.<br>
-		Or the date it was made.
+	<figcaption>This is a caption about an iframe.<br>
 	</figcaption>
 </figure>
+
+
+<hr>
 
 
 <h4>Inputs</h4>
@@ -217,27 +218,12 @@ object.init("do stuff");
 <input type="text">
 <label>Email</label>
 <input type="email" id="emails" required="required">
-<label><input type="radio">Radio</label>
-<label> <input type="checkbox">Checkbox</label>
-
-
-<label>Radios</label>
-<label>
-<input type="radio" name="num"><label for="radios">rad1</label>
-<input type="radio" name="num"><label for="radios">rad2</label>
-<input type="radio" name="num"><label for="radios">rad3</label>
-<input type="radio" name="num"><label for="radios">rad4</label>
-</label>
-
-
-<label>Checkboxes</label>
-<label for="checks">
-	<input type="checkbox"><label>checkbox1</label>
-	<input type="checkbox"><label>checkbox2</label>
-	<input type="checkbox"><label>checkbox3</label>
-	<input type="checkbox"><label>checkbox4</label>
-</label>
-
+<label>This is a Radio.</label>
+<input type="radio" name="pick">
+<input type="radio" name="pick">
+<input type="radio" name="pick">
+<label>This is a Checkbox</label>
+<input type="checkbox">
 <label>Color</label>
 <input type="color">
 <label>Select</label>
@@ -268,6 +254,10 @@ object.init("do stuff");
 <label>Textarea</label>
 <textarea>
 </textarea>
+
+
+<hr>
+
 
 <h4>Buttons</h4>
 <input type="button" value="Button">
