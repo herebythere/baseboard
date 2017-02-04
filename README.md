@@ -25,7 +25,7 @@ Add your '@font-faces' after:
 
 `/* Put @font-faces here.*/`
 
-Style body class after:
+Style body element after:
 
 `/* Put body declarations (like fonts) here... */`
 
