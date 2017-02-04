@@ -31,11 +31,11 @@ To style the body edit the blank body class:
 body { }
 `
 
-Add your custom declarations after:
+Add your custom declarations copy and paste utility classes after:
 
 `/* Put your custom classes here. */`
 
-Remember to delete the unused media queries and utility classes before you push your final solutions.
+Remember to delete the unused utility classes and media queries before you push your final solutions.
 
 ##License##
 Baseboard is released under the [MIT License](https://opensource.org/licenses/MIT) and is intended for students, artists, and small start-ups.
