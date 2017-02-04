@@ -1,15 +1,20 @@
-/* Baseboard v0.1 | Brian Taylor Vann - Jan 2017 | For use with MIT License */
+/* Baseboard v0.1
+ * Brian Taylor Vann - Jan 2017
+ * For use with MIT License */
 
 /* Put your @font-faces here... */
 
 /* Document Declarations */
 html { }
-body { font-size: 100%; margin: 0px; padding: 0px; }
+body { font-size: 100%; margin: 0px; padding: 0px; background-color: #ffffff; }
 
-/* Universal Declarations Semantic Elements */
+/* Put your own body declarations (like fonts) here... */
+body { }
+
+/* Initial Semantic Element Declarations */
 main, header, footer, nav, menu, section, article, div, a,
-details, summary, aside, blockquote, address, hr, dl, ul, ol, li,
-table, caption, th, tr, col, colgroup, td, thead, tbody, tfoot, 
+details, summary, aside, blockquote, address, hr, dl, ul, ol, li, dd,
+table, caption, thead, tbody, tfoot, th, tr, td, col, colgroup,  
 hgroup, h1, h2, h3, h4, h5, h6, p, pre, code, samp, kbd, var,
 cite, em, i, dfn, strong, ins, u, mark, del, s, q,
 figure, figcaption, object, audio, video, img, canvas, iframe, 
@@ -26,12 +31,11 @@ form, fieldset, legend, label, textarea {
 }
 
 /* Baseboard Semantic Element Declarations */
-body { background-color: #ffffff; }
 menu { list-style: none; }
 address { font-style: normal; }
 hr { height: 1px; background-color: #bbbbbb; border: 0px; }
 
-/* Baseboard List & Table Declarations */
+/* Baseboard Table Declarations */
 table { border-collapse: collapse; border-spacing: 0px; }
 caption { display: block; text-align: left; }
 thead { display: table-header-group; }
@@ -39,6 +43,10 @@ tbody { display: table-row-group; }
 tfoot { display: table-footer-group; }
 th, td { display: table-cell; }
 tr { display: table-row; }
+col { display: table-column; }
+colgroup { display: table-column-group; }
+
+/* Baseboard List Declarations */
 dl { list-style: none; }
 ul { list-style: circle inside; }
 ol { list-style: decimal inside; }
@@ -65,18 +73,47 @@ label { display: inline; }
 textarea { border: 1px solid #aaaaaa };
 
 
-/* Put your custom classes here */
+/* Put your custom classes here and copy utility classes here */
 
 
 
-/* 
- * Helper Classes & Media Queries,
- * Remember to Remove unused queries 
- * before you publish you solutions 
- * */
+/* Remember to erase all this below before you push solutions */ 
 
-/* Responsive media queries by width */
+/* Utility classes */
+.full-width { width: 100%; }
+.max-width { max-width: 100%}
+.fl { float: left; }
+.fr { float: right; }
+.cl { content: ''; display: table; clear: both }
+
+/* Grid */
+.grid { display: block; width: 100%; box-sizing: border-box; }
+.row { width: 100%; display: block; box-sizing: border-box; }
+.clmns { width: 100%; box-sizing: border-box; }
+@media (min-width: 500px) {
+	.clmns { float:left; padding-left: 3%; }
+	.clmns:first-child { padding-left: 0px; }
+	.clmns.one { width: 8.3333%; }
+	.clmns.two { width: 16.6667% }
+	.clmns.three { width: 25%; }
+	.clmns.four { width: 33.3333%; }
+	.clmns.five { width: 41.6667%; }
+	.clmns.six { width: 50%; }
+	.clmns.seven { width: 58.3333%; }
+	.clmns.eight { width: 66.6667%; }
+	.clmns.nine { width: 75%; }
+	.clmns.ten { width: 83.3333%; }
+	.clmns.eleven { width: 91.6667% }
+	.clmns.twelve { width: 100%; }
+	.row:after { content: ''; display: block; clear: both; }
+}
+
+/* Media queries by width */
 @media (min-width: 500px) { }
 @media (min-width: 700px) { }
 @media (min-width: 1000px) { }
 @media (min-width: 1200px) { }
+
+/* Media queries for print and speech */
+@media print { }
+@media speech { }
