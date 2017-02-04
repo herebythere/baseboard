@@ -27,10 +27,7 @@ Link custom fonts, add your '@font-faces' after:
 
 Style the blank body class :
 
-`/* Put body declarations (like fonts) here... */
-
-body { }
-`
+`/* Put body declarations (like fonts) here... */`
 
 Add custom declarations or copy and paste utility classes after:
 
