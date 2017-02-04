@@ -3,17 +3,16 @@
 ##Abstract##
 
 If CSS had a reset button, it would be Baseboard.
-Baseboard is a comfortable place to start new CSS templates.
 
 Check out this brutal [demo](https://taylor-vann.github.io/baseboard). It's as ugly as it should be. 
 
 ##Details##
 
-Terrible, right? Now compare it to the same [page](https://taylor-vann.github.io/baseboard/example/plank.html) without Baseboard. Initial browser defaults go unnoticed *until* it's a problem. Baseboard attempts to remedy that. It's not about fonts, colors, or holding your hand. It's a cross-platform start for the most useful and semantic HTML5 elements.
+Terrible, right? Now compare it to the same [page](https://taylor-vann.github.io/baseboard/example/plank.html) without Baseboard. Initial browser defaults go unnoticed *until* it's a problem. Baseboard attempts to remedy that. It's not about fonts, colors, or holding your hand. It's a cross-platform clean canvas for the most useful and semantic HTML5 elements.
 
-Function, flow, and the user experience should be reserved for design teams, not libraries or trend fonts. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 75 lines that eliminate default stylings. Less than 40 lines contain utility classes give you media queries, floats, and the smallest responsive grid ever. 
+Function, flow, and the user experience should be reserved for design teams, not libraries or trend fonts. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 75 lines eliminate default stylings. Less than 40 lines contain utility classes covering media queries, floats, and possibly the smallest responsive grid ever. 
 
-Baseboard is meant for the developer who doesn't need boilerplates but also doesn't want to start from scratch. It isolates development to your new declarations. The goal is to give you a little more control and a fair blank-slate.
+Baseboard is meant for the developer who doesn't need boilerplates but also doesn't want to start from scratch. The goal is to give you a little more control and a fair blank-slate.
 
 CSS from scratch doesn't have to be so bad.
 
