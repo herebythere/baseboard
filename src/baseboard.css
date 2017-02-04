@@ -2,16 +2,16 @@
  * Brian Taylor Vann - Jan 2017
  * For use with MIT License */
 
-/* Put your @font-faces here... */
+/* Put @font-faces here... */
 
 /* Document Declarations */
 html { }
 body { font-size: 100%; margin: 0px; padding: 0px; background-color: #ffffff; }
 
-/* Put your own body declarations (like fonts) here... */
+/* Put body declarations (like fonts) here... */
 body { }
 
-/* Initial Semantic Element Declarations */
+/* Initial Declarations */
 main, header, footer, nav, menu, section, article, div, a,
 details, summary, aside, blockquote, address, hr, dl, ul, ol, li, dd,
 table, caption, thead, tbody, tfoot, th, tr, td, col, colgroup,  
@@ -30,12 +30,12 @@ form, fieldset, legend, label, textarea {
 	box-sizing: border-box;
 }
 
-/* Baseboard Semantic Element Declarations */
+/* Semantic Element Declarations */
 menu { list-style: none; }
 address { font-style: normal; }
 hr { height: 1px; background-color: #bbbbbb; border: 0px; }
 
-/* Baseboard Table Declarations */
+/* Table Declarations */
 table { border-collapse: collapse; border-spacing: 0px; }
 caption { display: block; text-align: left; }
 thead { display: table-header-group; }
@@ -46,16 +46,16 @@ tr { display: table-row; }
 col { display: table-column; }
 colgroup { display: table-column-group; }
 
-/* Baseboard List Declarations */
+/* List Declarations */
 dl { list-style: none; }
 ul { list-style: circle inside; }
 ol { list-style: decimal inside; }
 li { display: list-item; }
 
-/* Baseboard Link Declarations */
+/* Link Declarations */
 a { display: inline; }
 
-/* Baseboard Text Styling Declarations */
+/* Text Styling Declarations */
 pre { padding: 1px; overflow-x: auto; }
 cite, em, i, dfn { font-style: italic; }
 strong { font-weight: bold; }
@@ -67,13 +67,13 @@ cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 	display: inline;
 }
 
-/* Baseboard Form Declarations */
+/* Form Declarations */
 input, button, select { display: block; }
 label { display: inline; }
 textarea { border: 1px solid #aaaaaa };
 
 
-/* Put your custom classes here and copy utility classes here */
+/* Put custom classes here and copy utility classes here */
 
 
 
