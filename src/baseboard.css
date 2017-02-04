@@ -84,7 +84,7 @@ textarea { border: 1px solid #aaaaaa };
 .max-width { max-width: 100%}
 .fl { float: left; }
 .fr { float: right; }
-.cl { content: ''; display: table; clear: both }
+.cl:after { content: ''; display: block; clear: both }
 
 /* Grid */
 .grid { display: block; width: 100%; box-sizing: border-box; }
@@ -110,9 +110,9 @@ textarea { border: 1px solid #aaaaaa };
 
 /* Media queries by width */
 @media (min-width: 500px) { }
-@media (min-width: 700px) { }
+@media (min-width: 750px) { }
 @media (min-width: 1000px) { }
-@media (min-width: 1200px) { }
+@media (min-width: 1250px) { }
 
 /* Media queries for print and speech */
 @media print { }
