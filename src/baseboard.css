@@ -69,12 +69,10 @@ cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 }
 
 /* Form Declarations */
-input, button, select { display: block; }
+input, button, select { display: block; margin: 0px; }
 textarea { border: 1px solid #aaaaaa };
 
-
-/* Put custom classes here and copy utility classes here */
-
+/* Put custom classes and copy utility classes here */
 
 
 /* Remember to erase all this below before you push solutions */ 
@@ -84,7 +82,7 @@ textarea { border: 1px solid #aaaaaa };
 .max-width { max-width: 100%}
 .fl { float: left; }
 .fr { float: right; }
-.cl:after { content: ''; display: block; clear: both }
+.cf:after { content: ''; display: block; clear: both }
 
 /* Grid */
 .grid { display: block; width: 100%; box-sizing: border-box; }
