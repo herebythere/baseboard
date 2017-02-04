@@ -19,13 +19,13 @@ CSS from scratch doesn't have to be so bad.
 
 ##Usage##
 
-Grab `baseboard.css` from the src directory and copy it into your resources folder or project directory. Rename it something relative to your project. 
+Grab `baseboard.css` from the src directory and copy it into your resources or project directory. Rename it something relative to your project. 
 
-Link custom fonts, add your '@font-faces' after:
+Add your '@font-faces' after:
 
 `/* Put @font-faces here.*/`
 
-Style the blank body class :
+Style body class after:
 
 `/* Put body declarations (like fonts) here... */`
 
