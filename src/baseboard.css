@@ -79,7 +79,7 @@ textarea { border: 1px solid #aaaaaa };
 
 /* Utility classes */
 .full-width { width: 100%; }
-.max-width { max-width: 100%}
+.max-width { max-width: 100% }
 .fl { float: left; }
 .fr { float: right; }
 .cf:after { content: ''; display: block; clear: both }
