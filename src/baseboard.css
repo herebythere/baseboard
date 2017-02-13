@@ -63,6 +63,7 @@ strong { font-weight: bold; }
 ins, u { text-decoration: underline; }
 mark { background-color: #dddddd; }
 del, s { text-decoration: line-through; }
+q:before, q:after { content: ''; } 
 code, samp, kbd, var { font-family: monospace; }
 cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 	display: inline;
@@ -83,7 +84,7 @@ textarea { border: 1px solid #aaaaaa; }
 .row { width: 100%; display: block; box-sizing: border-box; }
 .clmns { width: 100%; box-sizing: border-box; }
 /* for custom grid margins, where margin and width is a percent:
- * width = margin * (numcolumn - 1) + (((100 - margin) / 12) * numcolumn) */
+ * width = margin * (num - 1) + (((100 - margin) / total) * num) */
 @media (min-width: 500px) {
 	.clmns { float:left; margin-left: 3%; }
 	.clmns:first-child { margin-left: 0px; }
