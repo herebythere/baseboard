@@ -57,7 +57,7 @@ li { display: list-item; }
 a { display: inline; }
 
 /* Text Styling Declarations */
-pre { padding: 1px; overflow-x: auto; }
+pre { padding: 1px; overflow: auto; }
 cite, em, i, dfn { font-style: italic; }
 strong { font-weight: bold; }
 ins, u { text-decoration: underline; }
@@ -72,46 +72,3 @@ cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 /* Form Declarations */
 input, button, select { display: block; margin: 0px; }
 textarea { border: 1px solid #aaaaaa; }
- 
-/* Utility classes */
-.full-width { width: 100%; }
-.max-width { max-width: 100%; }
-.fl { float: left; }
-.fr { float: right; }
-.cf:after { content: ''; display: block; clear: both; }
-
-.grid { display: block; width: 100%; box-sizing: border-box; }
-.row { width: 100%; display: block; box-sizing: border-box; }
-.clmns { width: 100%; box-sizing: border-box; }
-/* for custom grid margins, where margin and width is a percent:
- * width = margin * (num - 1) + (((100 - margin) / total) * num) */
-@media (min-width: 500px) {
-	.clmns { float:left; margin-left: 3%; }
-	.clmns:first-child { margin-left: 0px; }
-	.clmns.one { width: 5.5833%; }
-	.clmns.two { width: 14.1666%; }
-	.clmns.three { width: 22.7499%; }
-	.clmns.four { width: 31.3332%; }
-	.clmns.five { width: 39.9165%; }
-	.clmns.six { width: 48.5%; }
-	.clmns.seven { width: 57.0831%; }
-	.clmns.eight { width: 65.6664%; }
-	.clmns.nine { width: 74.2497%; }
-	.clmns.ten { width: 82.833%; }
-	.clmns.eleven { width: 91.4163%; }
-	.clmns.twelve { width: 100%; }
-	.row:after { content: ''; display: block; clear: both; }
-}
-
-/* Put custom classes and copy utility classes here */
-
-
-/* Media queries by width */
-@media (min-width: 500px) { }
-@media (min-width: 750px) { }
-@media (min-width: 1000px) { }
-@media (min-width: 1250px) { }
-
-/* Media queries for print and speech */
-@media print { }
-@media speech { }
