@@ -12,7 +12,7 @@ Terrible, right? Now compare it to the same [page](https://taylor-vann.github.io
 
 Function, flow, and experience should be created by design teams and developers, not libraries or boilerplates. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 75 lines eliminate default styling and reduce HTML elements to a purely semantic foundation.
 
-The goal is to give you, artists, and developers a little more control and a fair blank-slate.
+The goal is to give developers, artists, and designers a little more control and a fair blank-slate.
 
 ##Usage##
 
