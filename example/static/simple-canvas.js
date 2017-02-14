@@ -7,6 +7,6 @@ function draw() {
 					+ (i * 5) + ", " + Math.random() + ")";
 		ctx.fillRect(Math.random() * 300, Math.random() * 300, 100, 100);
 	}
-};
+}
 
-
+draw();
