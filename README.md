@@ -8,14 +8,11 @@ Check out this [demo](https://taylor-vann.github.io/baseboard). It's as ugly as 
 
 ##Details##
 
-Terrible, right? Now compare it to the same [page](https://taylor-vann.github.io/baseboard/example/plank.html) without Baseboard. Initial browser defaults go unnoticed *until* it's a problem and Baseboard attempts to remedy that. It gives you a clean cross-platform canvas for the most useful and semantic HTML5 elements.
+Terrible, right? Now compare it to the same [page](https://taylor-vann.github.io/baseboard/example/plank.html) without Baseboard. Initial browser defaults go unnoticed *until* it's a problem. Baseboard gives the most useful and semantic HTML5 elements in a clean cross-browser format.
 
-Function, flow, and the user experience should be created by design teams, not libraries or boilerplates. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 75 lines eliminate default styling. Less than 40 lines contain utility classes covering media queries, floats, and a small responsive 12 column grid.
+Function, flow, and experience should be created by design teams and developers, not libraries or boilerplates. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 75 lines eliminate default styling and reduce HTML elements to a purely semantic foundation.
 
-Baseboard is made for the developer who doesn't need a boilerplate but also doesn't want to start from scratch. The goal is to give you a little more control and a fair blank-slate.
-
-CSS from scratch doesn't have to be so bad.
-
+The goal is to give you, artists, and developers a little more control and a fair blank-slate.
 
 ##Usage##
 
@@ -29,7 +26,7 @@ If necessary, style the body element after:
 
 `/* Put body declarations (like fonts) here... */`
 
-Add custom declarations or copy and paste utility classes after:
+Add custom declarations after:
 
 `/* Put custom classes here. */`
 

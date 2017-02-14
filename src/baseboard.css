@@ -1,4 +1,4 @@
-/* Baseboard v0.3
+/* Baseboard v0.4
  * Brian Taylor Vann
  * Feb 2017
  * MIT License */
@@ -72,3 +72,5 @@ cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 /* Form Declarations */
 input, button, select { display: block; margin: 0px; }
 textarea { border: 1px solid #aaaaaa; }
+
+/* Put custom classes here. */
