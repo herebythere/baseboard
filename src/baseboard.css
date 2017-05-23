@@ -1,9 +1,4 @@
-/* 
- * Baseboard v0.5
- * Copywrite 2017 Brian Taylor Vann
- * Licenced under the MIT License
- *
- */
+/* Baseboard v0.5 | Copywrite 2017 Brian Taylor Vann | MIT License */
 
 /* Put @font-faces here... */
 
@@ -15,13 +10,13 @@ body { font-size: 100%; margin: 0px; padding: 0px; background-color: #ffffff; }
 body { }
 
 /* Initial Declarations */
-main, header, footer, nav, menu, section, article, div, a,
-details, summary, aside, blockquote, address, hr, dl, ul, ol, li, dd,
-table, caption, thead, tbody, tfoot, th, tr, td, col, colgroup,  
+main, header, footer, nav, menu, section, article, div,
 hgroup, h1, h2, h3, h4, h5, h6, p, pre, code, samp, kbd, var,
-cite, em, i, dfn, strong, ins, u, mark, del, s, q,
-figure, figcaption, object, audio, video, img, canvas, iframe, 
-form, fieldset, legend, label, textarea {
+hr, dl, ul, ol, li, dd, details, summary, aside, blockquote,
+table, caption, thead, tbody, tfoot, th, tr, td, col, colgroup,
+address, cite, em, i, dfn, strong, ins, u, mark, del, s, q,
+figure, figcaption, object, audio, video, img, canvas, iframe, embed,
+form, fieldset, legend, label, textarea, a {
 	display: block;
 	margin: 0px;
 	padding: 0px;
@@ -65,7 +60,7 @@ strong { font-weight: bold; }
 ins, u { text-decoration: underline; }
 mark { background-color: #dddddd; }
 del, s { text-decoration: line-through; }
-q:before, q:after { content: ''; } 
+q:before, q:after { content: ''; }
 code, samp, kbd, var { font-family: monospace; }
 cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
 	display: inline;
