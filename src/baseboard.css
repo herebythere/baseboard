@@ -1,74 +1,68 @@
-/* Baseboard v0.5 | Copywrite 2017 Brian Taylor Vann | MIT License */
+/* Baseboard v0.6 | Copywrite 2017 MIT License - Brian Taylor Vann */
 
 /* Put @font-faces here... */
 
-/* Document Declarations */
-html { }
-body { font-size: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
 
-/* Put body declarations (like fonts) here... */
-body { }
+/* Document Declarations */
+body {font-size: 100%; margin: 0px; overflow-x: hidden;}
 
 /* Semantic Declarations */
-main { margin: 0px; font-size: 1em; line-height: 1em; }
-h1 { margin: 0px; font-size: 1em; font-weight: normal; }
-h2 { margin: 0px; font-size: 1em; font-weight: normal; }
-h3 { margin: 0px; font-size: 1em; font-weight: normal; }
-h4 { margin: 0px; font-size: 1em; font-weight: normal; }
-h5 { margin: 0px; font-size: 1em; font-weight: normal; }
-h6 { margin: 0px; font-size: 1em; font-weight: normal; }
-div { line-height: 1em; margin: 0px; } 
-p { margin: 0px; }
-menu { list-style: none; padding: 0px; margin: 0px; list-style-type: none; }
-address { font-style: normal; }
-summary { margin: 0px; }
-details { margin: 0px; }
-aside { margin: 0px; }
-blockquote{ margin: 0px; }
-hr { height: 1px; margin: 0px; border: 0px; background-color: #bbbbbb; }
+main {margin: 0px; line-height: 1.15rem; box-sizing: border-box;}
+h1 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
+h2 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
+h3 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
+h4 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
+h5 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
+h6 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
+div {box-sizing: border-box;}
+p {margin: 0px; box-sizing: border-box;}
+menu {margin: 0px; padding: 0px; box-sizing: border-box;}
+address {font-style: normal; box-sizing: border-box;}
+summary {list-style: none; box-sizing: border-box;}
+details {box-sizing: border-box;}
+aside {box-sizing: border-box;}
+blockquote {margin: 0px; box-sizing: border-box;}
+hr {margin: 0px; box-sizing: border-box;}
+a {outline: 0px;}
 
 /* Table Declarations */
-table { border-collapse: collapse; border-spacing: 0px; }
-caption { text-align: left; }
-thead { text-align: left; }
-tbody { text-align: left; }
-tfoot { text-align: left; }
-th { font-weight: normal; text-align: left; }
-td { text-align: left; }
-tr { text-align: left; }
-col { text-align: left; }
-colgroup { text-align: left; }
+table {border-collapse: collapse; border: 0px; box-sizing: border-box;}
+caption {text-align: left; box-sizing: border-box;}
+th {font-weight: normal; text-align: left; box-sizing: border-box;}
+tr {box-sizing: border-box;}
+td {box-sizing: border-box;}
+thead {box-sizing: border-box;}
+tbody {box-sizing: border-box;}
+tfoot {box-sizing: border-box;}
 
 /* List Declarations */
-dl { margin: 0px; padding: 0px; list-style: none; }
-ul { margin: 0px; padding: 0px; list-style: circle inside; }
-ol { margin: 0px; padding: 0px; list-style: decimal inside; }
-li { margin: 0px; padding: 0px; }
-dd { margin: 0px; padding: 0px; }
+dl {margin: 0px; box-sizing: border-box;}
+ul {margin: 0px; padding: 0px; box-sizing: border-box;}
+ol {margin: 0px; padding: 0px; box-sizing: border-box;}
+li {margin: 0px; padding: 0px; box-sizing: border-box;}
+dd {margin: 0px; padding: 0px; box-sizing: border-box;}
 
 /* Text Declarations */
-pre { padding: 1px; overflow: auto; }
-mark { background-color: #dddddd; }
-q:before, q:after { content: ''; }
+pre {margin: 0px; overflow: auto; line-height: 1rem; box-sizing: border-box;}
+mark {background-color: #efefef;}
+q:before, q:after {content: '';}
 
 /* Media Declarations */
-figure { margin: 0px; }
-figcaption { margin: 0px; }
-object { margin: 0px; }
-audio { margin: 0px; }
-video { margin: 0px; }
-img { margin: 0px; }
-canvas { margin: 0px; }
-iframe { margin: 0px; }
+figure {margin: 0px;  box-sizing: border-box;}
+figcaption {margin: 0px;  box-sizing: border-box;}
+object {display: block; margin: 0px; box-sizing: border-box;}
+audio {display: block; margin: 0px; box-sizing: border-box;}
+video {display: block; margin: 0px; box-sizing: border-box;}
+img {display: block; margin: 0px; box-sizing: border-box;}
+canvas {display: block; margin: 0px; box-sizing: border-box;}
+iframe {display: block; margin: 0px; border: none; box-sizing: border-box;}
 
 /* Form Declarations */
-form { margin: 0px; border: 0px; }
-fieldset { margin: 0px; padding: 0px; border: 0px; }
-legend { margin: 0px; }
-label { margin: 0px; }
-input { display: block; margin: 0px; }
-textarea { display: block; border: 1px solid #aaaaaa; }
-select { display: block; margin: 0px; }
-button { display: block; margin: 0px; }
+form {margin: 0px; border: 0px; box-sizing: border-box;}
+fieldset {margin: 0px; padding: 0px; border: 0px; box-sizing: border-box;}
+input {display: block; margin: 0px; box-sizing: border-box;}
+textarea {display: block; box-sizing: border-box;}
+select {display: block; margin: 0px; box-sizing: border-box;}
+button {display: block; margin: 0px; box-sizing: border-box;}
 
-/* Add custom classes here. */
+/* Add custom declarations here. */

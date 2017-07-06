@@ -8,9 +8,13 @@ Baseboard is a CSS "reset" button.
 
 Initial browser defaults go unnoticed *until* it's a problem. Baseboard gives the most useful and semantic HTML5 elements a clean cross-browser start.
 
-Function, flow, and experience should be created by design teams and developers, not libraries or boilerplates. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 75 lines eliminate default styling and reduce HTML elements to a purely semantic foundation.
+Function, flow, and experience should be created by design teams and developers, not libraries or boilerplates. Baseboard supports this philosophy and lets you begin from (almost) nothing. Less than 65 lines of CSS eliminate default styling and reduce HTML elements to a purely semantic foundation.
 
-The goal is to give developers, artists, and designers a little more control and a fair blank-slate.
+Baseboard is an alternative to Reset CSS and Normalize CSS. Both of these boilerplates are functional but overused and misunderstood. Reset CSS creates convoluted CSS, confusing inheritance issues, and unnecessary declarations. Normalize CSS tries for a smooth cross-browser experience at the risk of a large file size and many repeated declarations.
+
+Baseboard tries to reconcile between the two. There are no repeated declarations. Each element derives from a single default point of inheritance. Block level objects have their "box-sizing" property set to "border-box" by default.
+
+The purpose of Baseboard is to give developers, artists, and designers a little more control and a fair blank-slate.
 
 ## Usage ##
 
@@ -20,13 +24,10 @@ Add your '@font-faces' after:
 
 `/* Put @font-faces here.*/`
 
-If necessary, style the body element after:
-
-`/* Put body declarations (like fonts) here... */`
-
 Add custom declarations after:
 
 `/* Put custom classes here. */`
 
 ## License ##
+
 Baseboard is released under the [MIT License](https://opensource.org/licenses/MIT) and is intended for students, artists, and small start-ups.
