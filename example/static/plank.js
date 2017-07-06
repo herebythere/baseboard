@@ -1,5 +1,5 @@
 function draw() {
-	var ctx = document.getElementById('tutorial').getContext('2d');
+	var ctx = document.getElementById('plank-canvas').getContext('2d');
 	ctx.globalCompositeOperation = 'overlay';	
 	
 	for (var i = 0; i < 50; i++){
