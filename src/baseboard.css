@@ -4,70 +4,71 @@
 
 /* Document Declarations */
 html { }
-body { font-size: 100%; margin: 0px; padding: 0px; background-color: #ffffff; }
+body { font-size: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
 
 /* Put body declarations (like fonts) here... */
 body { }
 
-/* Initial Declarations */
-main, header, footer, nav, menu, section, article, div,
-hgroup, h1, h2, h3, h4, h5, h6, p, pre, code, samp, kbd, var,
-hr, dl, ul, ol, li, dd, details, summary, aside, blockquote,
-table, caption, thead, tbody, tfoot, th, tr, td, col, colgroup,
-address, cite, em, i, dfn, strong, ins, u, mark, del, s, q,
-figure, figcaption, object, audio, video, img, canvas, iframe, embed,
-form, fieldset, legend, label, textarea, a {
-	display: block;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	font-size: 1em;
-	font-weight: normal;
-	text-align: left;
-	line-height: 1em;
-	box-sizing: border-box;
-}
-
 /* Semantic Declarations */
-menu { list-style: none; }
+main { margin: 0px; font-size: 1em; line-height: 1em; }
+h1 { margin: 0px; font-size: 1em; font-weight: normal; }
+h2 { margin: 0px; font-size: 1em; font-weight: normal; }
+h3 { margin: 0px; font-size: 1em; font-weight: normal; }
+h4 { margin: 0px; font-size: 1em; font-weight: normal; }
+h5 { margin: 0px; font-size: 1em; font-weight: normal; }
+h6 { margin: 0px; font-size: 1em; font-weight: normal; }
+div { line-height: 1em; margin: 0px; } 
+p { margin: 0px; }
+menu { list-style: none; padding: 0px; margin: 0px; list-style-type: none; }
 address { font-style: normal; }
-hr { height: 1px; background-color: #bbbbbb; border: 0px; }
+summary { margin: 0px; }
+details { margin: 0px; }
+aside { margin: 0px; }
+blockquote{ margin: 0px; }
+hr { height: 1px; margin: 0px; border: 0px; background-color: #bbbbbb; }
 
 /* Table Declarations */
 table { border-collapse: collapse; border-spacing: 0px; }
-caption { display: block; text-align: left; }
-thead { display: table-header-group; }
-tbody { display: table-row-group; }
-tfoot { display: table-footer-group; }
-th, td { display: table-cell; }
-tr { display: table-row; }
-col { display: table-column; }
-colgroup { display: table-column-group; }
+caption { text-align: left; }
+thead { text-align: left; }
+tbody { text-align: left; }
+tfoot { text-align: left; }
+th { font-weight: normal; text-align: left; }
+td { text-align: left; }
+tr { text-align: left; }
+col { text-align: left; }
+colgroup { text-align: left; }
 
 /* List Declarations */
-dl { list-style: none; }
-ul { list-style: circle inside; }
-ol { list-style: decimal inside; }
-li { display: list-item; }
-
-/* Link Declarations */
-a { display: inline; }
+dl { margin: 0px; padding: 0px; list-style: none; }
+ul { margin: 0px; padding: 0px; list-style: circle inside; }
+ol { margin: 0px; padding: 0px; list-style: decimal inside; }
+li { margin: 0px; padding: 0px; }
+dd { margin: 0px; padding: 0px; }
 
 /* Text Declarations */
 pre { padding: 1px; overflow: auto; }
-cite, em, i, dfn { font-style: italic; }
-strong { font-weight: bold; }
-ins, u { text-decoration: underline; }
 mark { background-color: #dddddd; }
-del, s { text-decoration: line-through; }
 q:before, q:after { content: ''; }
-code, samp, kbd, var { font-family: monospace; }
-cite, em, i, dfn, strong, ins, u, mark, del, s, q, code, samp, kbd, var {
-	display: inline;
-}
+
+/* Media Declarations */
+figure { margin: 0px; }
+figcaption { margin: 0px; }
+object { margin: 0px; }
+audio { margin: 0px; }
+video { margin: 0px; }
+img { margin: 0px; }
+canvas { margin: 0px; }
+iframe { margin: 0px; }
 
 /* Form Declarations */
-input, button, select { display: block; margin: 0px; }
-textarea { border: 1px solid #aaaaaa; }
+form { margin: 0px; border: 0px; }
+fieldset { margin: 0px; padding: 0px; border: 0px; }
+legend { margin: 0px; }
+label { margin: 0px; }
+input { display: block; margin: 0px; }
+textarea { display: block; border: 1px solid #aaaaaa; }
+select { display: block; margin: 0px; }
+button { display: block; margin: 0px; }
 
 /* Add custom classes here. */
