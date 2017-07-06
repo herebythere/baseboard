@@ -2,7 +2,6 @@
 
 /* Put @font-faces here... */
 
-
 /* Document Declarations */
 body {font-size: 100%; margin: 0px; overflow-x: hidden;}
 
@@ -39,8 +38,8 @@ tfoot {box-sizing: border-box;}
 dl {margin: 0px; box-sizing: border-box;}
 ul {margin: 0px; padding: 0px; box-sizing: border-box;}
 ol {margin: 0px; padding: 0px; box-sizing: border-box;}
-li {margin: 0px; padding: 0px; box-sizing: border-box;}
-dd {margin: 0px; padding: 0px; box-sizing: border-box;}
+li {display: block; box-sizing: border-box;}
+dd {margin: 0px; box-sizing: border-box;}
 
 /* Text Declarations */
 pre {margin: 0px; overflow: auto; line-height: 1rem; box-sizing: border-box;}
@@ -49,20 +48,20 @@ q:before, q:after {content: '';}
 
 /* Media Declarations */
 figure {margin: 0px;  box-sizing: border-box;}
-figcaption {margin: 0px;  box-sizing: border-box;}
-object {display: block; margin: 0px; box-sizing: border-box;}
-audio {display: block; margin: 0px; box-sizing: border-box;}
-video {display: block; margin: 0px; box-sizing: border-box;}
-img {display: block; margin: 0px; box-sizing: border-box;}
-canvas {display: block; margin: 0px; box-sizing: border-box;}
-iframe {display: block; margin: 0px; border: none; box-sizing: border-box;}
+figcaption {box-sizing: border-box;}
+object {display: block; box-sizing: border-box;}
+audio {display: block;}
+video {display: block; box-sizing: border-box;}
+img {display: block; box-sizing: border-box;}
+canvas {display: block; box-sizing: border-box;}
+iframe {border: none; box-sizing: border-box;}
 
 /* Form Declarations */
-form {margin: 0px; border: 0px; box-sizing: border-box;}
+form {margin: 0px; box-sizing: border-box;}
 fieldset {margin: 0px; padding: 0px; border: 0px; box-sizing: border-box;}
-input {display: block; margin: 0px; box-sizing: border-box;}
+input {display: block; box-sizing: border-box;}
 textarea {display: block; box-sizing: border-box;}
-select {display: block; margin: 0px; box-sizing: border-box;}
-button {display: block; margin: 0px; box-sizing: border-box;}
+select {display: block; box-sizing: border-box;}
+button {display: block; box-sizing: border-box;}
 
 /* Add custom declarations here. */
