@@ -1,12 +1,15 @@
-/* Baseboard v0.6 | Copywrite 2017 MIT License - Brian Taylor Vann */
+/* Baseboard v0.7 | Copywrite 2017 MIT License - Brian Taylor Vann */
 
 /* Put @font-faces here... */
 
 /* Document Declarations */
-body {font-size: 100%; margin: 0px; overflow-x: hidden;}
+body {margin: 0px; font-size: 1rem; line-height: 1.62rem; overflow-x: hidden;}
 
 /* Semantic Declarations */
-main {margin: 0px; line-height: 1.15rem; box-sizing: border-box;}
+header {box-sizing: border-box;}
+main {box-sizing: border-box;}
+footer {box-sizing: border-box;}
+hgroup {margin: 0px; box-sizing: border-box;}
 h1 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h2 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h3 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
@@ -14,8 +17,11 @@ h4 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h5 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h6 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 div {box-sizing: border-box;}
+section {box-sizing: border-box;}
+article {box-sizing: border-box;}
 p {margin: 0px; box-sizing: border-box;}
 menu {margin: 0px; padding: 0px; box-sizing: border-box;}
+nav {box-sizing: border-box;}
 address {font-style: normal; box-sizing: border-box;}
 summary {list-style: none; box-sizing: border-box;}
 details {box-sizing: border-box;}
@@ -24,27 +30,14 @@ blockquote {margin: 0px; box-sizing: border-box;}
 hr {margin: 0px; box-sizing: border-box;}
 a {outline: 0px;}
 
-/* Table Declarations */
-table {border-collapse: collapse; border: 0px; box-sizing: border-box;}
-caption {text-align: left; box-sizing: border-box;}
-th {font-weight: normal; text-align: left; box-sizing: border-box;}
-tr {box-sizing: border-box;}
-td {box-sizing: border-box;}
-thead {box-sizing: border-box;}
-tbody {box-sizing: border-box;}
-tfoot {box-sizing: border-box;}
-
-/* List Declarations */
-dl {margin: 0px; box-sizing: border-box;}
-ul {margin: 0px; padding: 0px; box-sizing: border-box;}
-ol {margin: 0px; padding: 0px; box-sizing: border-box;}
-li {display: block; box-sizing: border-box;}
-dd {margin: 0px; box-sizing: border-box;}
-
 /* Text Declarations */
-pre {margin: 0px; overflow: auto; line-height: 1rem; box-sizing: border-box;}
+pre {margin: 0px; overflow: auto; box-sizing: border-box;}
+code {line-height: 1em;}
 mark {background-color: #efefef;}
-q:before, q:after {content: '';}
+sup {vertical-align: top; line-height: 1em;}
+sub {vertical-align: bottom; line-height: 1em;}
+q:before {content: "";}
+q:after {content: "";}
 
 /* Media Declarations */
 figure {margin: 0px;  box-sizing: border-box;}
@@ -63,5 +56,22 @@ input {display: block; box-sizing: border-box;}
 textarea {display: block; box-sizing: border-box;}
 select {display: block; box-sizing: border-box;}
 button {display: block; box-sizing: border-box;}
+
+/* List Declarations */
+dl {margin: 0px; box-sizing: border-box;}
+ul {margin: 0px; padding: 0px; box-sizing: border-box;}
+ol {margin: 0px; padding: 0px; box-sizing: border-box;}
+li {display: block; box-sizing: border-box;}
+dd {margin: 0px; box-sizing: border-box;}
+
+/* Table Declarations */
+table {border-collapse: collapse; border: 0px; box-sizing: border-box;}
+caption {text-align: left; box-sizing: border-box;}
+th {font-weight: normal; text-align: left; box-sizing: border-box;}
+tr {box-sizing: border-box;}
+td {box-sizing: border-box;}
+thead {box-sizing: border-box;}
+tbody {box-sizing: border-box;}
+tfoot {box-sizing: border-box;}
 
 /* Add custom declarations here. */
