@@ -16,9 +16,9 @@ h3 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h4 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h5 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
 h6 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-div {box-sizing: border-box;}
 section {box-sizing: border-box;}
 article {box-sizing: border-box;}
+div {box-sizing: border-box;}
 p {margin: 0px; box-sizing: border-box;}
 menu {margin: 0px; padding: 0px; box-sizing: border-box;}
 nav {box-sizing: border-box;}
@@ -31,8 +31,10 @@ hr {margin: 0px; box-sizing: border-box;}
 a {outline: 0px;}
 
 /* Text Declarations */
-pre {margin: 0px; overflow: auto; box-sizing: border-box;}
-code {line-height: 1em;}
+pre {margin: 0px; line-height: 1rem; overflow: auto; box-sizing: border-box;}
+code {font-size: 0.8rem;}
+samp {font-size: 0.8rem;}
+kbd {font-size: 0.8rem;}
 mark {background-color: #efefef;}
 sup {vertical-align: top; line-height: 1em;}
 sub {vertical-align: bottom; line-height: 1em;}
