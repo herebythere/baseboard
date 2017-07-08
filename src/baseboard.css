@@ -3,7 +3,7 @@
 /* Put @font-faces here... */
 
 /* Document Declarations */
-body {margin: 0px; font-size: 1rem; line-height: 1.62rem; overflow-x: hidden;}
+body {margin: 0px; font-size: 1rem; line-height: 1.3rem; overflow-x: hidden;}
 
 /* Semantic Declarations */
 header {box-sizing: border-box;}
@@ -28,7 +28,8 @@ details {box-sizing: border-box;}
 aside {box-sizing: border-box;}
 blockquote {margin: 0px; box-sizing: border-box;}
 hr {margin: 0px; box-sizing: border-box;}
-a {outline: 0px;}
+a {outline: none;}
+a:active {outline: none;}
 
 /* Text Declarations */
 pre {margin: 0px; line-height: 1rem; overflow: auto; box-sizing: border-box;}
@@ -54,10 +55,11 @@ iframe {border: none; box-sizing: border-box;}
 /* Form Declarations */
 form {margin: 0px; box-sizing: border-box;}
 fieldset {margin: 0px; padding: 0px; border: 0px; box-sizing: border-box;}
+legend {padding: 0px; box-sizing: border-box;}
 input {display: block; box-sizing: border-box;}
 textarea {display: block; box-sizing: border-box;}
 select {display: block; box-sizing: border-box;}
-button {display: block; box-sizing: border-box;}
+keygen {display: block; box-sizing: border-box;}
 
 /* List Declarations */
 dl {margin: 0px; box-sizing: border-box;}
