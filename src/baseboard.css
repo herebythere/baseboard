@@ -1,81 +1,96 @@
 /* Baseboard v0.7 | Copywrite 2017 MIT License - Brian Taylor Vann */
 
 /* Put @font-faces here... */
+html {
+  font-size: 62.5%;
+}
 
 /* Document Declarations */
-body {margin: 0px; font-size: 1rem; line-height: 1.3rem; overflow-x: hidden;}
+body { margin: 0px; font-size: 1.6rem; line-height: 2.56rem;
+       word-wrap: break-word; overflow-x: hidden; }
 
-/* Semantic Declarations */
-header {box-sizing: border-box;}
-main {box-sizing: border-box;}
-footer {box-sizing: border-box;}
-hgroup {margin: 0px; box-sizing: border-box;}
-h1 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-h2 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-h3 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-h4 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-h5 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-h6 {margin: 0px; font-size: 1rem; font-weight: normal; box-sizing: border-box;}
-section {box-sizing: border-box;}
-article {box-sizing: border-box;}
-div {box-sizing: border-box;}
-p {margin: 0px; box-sizing: border-box;}
-menu {margin: 0px; padding: 0px; box-sizing: border-box;}
-nav {box-sizing: border-box;}
-address {font-style: normal; box-sizing: border-box;}
-summary {list-style: none; box-sizing: border-box;}
-details {box-sizing: border-box;}
-aside {box-sizing: border-box;}
-blockquote {margin: 0px; box-sizing: border-box;}
-hr {margin: 0px; box-sizing: border-box;}
-a {outline: none;}
-a:active {outline: none;}
+ /* Semantic Declarations */
+ header { width:100%: border-box; box-sizing: }
+ main { box-sizing: border-box; }
+ footer { box-sizing: border-box; }
+ h1 { margin: 0px; font-size: 1.6rem;
+   font-weight: normal; box-sizing: border-box; }
+ h2 { margin: 0px; font-size: 1.6rem;
+   font-weight: normal; box-sizing: border-box; }
+ h3 { margin: 0px; font-size: 1.6rem;
+   font-weight: normal; box-sizing: border-box; }
+ h4 { margin: 0px; font-size: 1.6rem;
+   font-weight: normal; box-sizing: border-box; }
+ h5 { margin: 0px; font-size: 1.6rem;
+   font-weight: normal; box-sizing: border-box; }
+ h6 { margin: 0px; font-size: 1.6rem;
+   font-weight: normal; box-sizing: border-box; }
+ section { box-sizing: border-box; }
+ article { box-sizing: border-box; }
+ div { box-sizing: border-box; }
+ p { margin: 0px; box-sizing: border-box; }
+ menu { margin: 0px; padding: 0px; box-sizing: border-box; list-style: none; }
+ nav { box-sizing: border-box; }
+ address { font-style: normal; box-sizing: border-box; }
+ summary { list-style: none; box-sizing: border-box; }
+ details { box-sizing: border-box; }
+ aside { box-sizing: border-box; }
+ blockquote { margin: 0px; box-sizing: border-box; }
+ hr { margin: 0px; box-sizing: border-box; }
+ a { outline: none; }
+ a:active { outline: none; }
 
-/* Text Declarations */
-pre {margin: 0px; line-height: 1rem; overflow: auto; box-sizing: border-box;}
-code {font-size: 0.75rem; line-height: 1em;}
-samp {font-size: 0.75rem;}
-kbd {font-size: 0.75rem;}
-mark {background-color: #efefef;}
-sup {vertical-align: top; line-height: 1em;}
-sub {vertical-align: bottom; line-height: 1em;}
-q:before {content: "";}
-q:after {content: "";}
+ /* Text Declarations */
+ pre { margin: 0px; line-height: 1rem; box-sizing: border-box; }
+ code { font-size: 1.2rem; line-height: 1.5em;
+   vertical-align: middle; overflow: auto; }
+ samp { font-size: 1.2rem; }
+ kbd { font-size: 1.2rem; }
+ mark { background-color: #efefef; }
+ sup { vertical-align: top; line-height: 1em; }
+ sub { vertical-align: bottom; line-height: 1em; }
+ q:before { content: ""; }
+ q:after { content: ""; }
 
-/* Media Declarations */
-figure {margin: 0px;  box-sizing: border-box;}
-figcaption {box-sizing: border-box;}
-object {display: block; box-sizing: border-box;}
-audio {display: block;}
-video {display: block; box-sizing: border-box;}
-img {display: block; box-sizing: border-box;}
-canvas {display: block; box-sizing: border-box;}
-iframe {border: none; box-sizing: border-box;}
+ /* Media Declarations */
+ figure { margin: 0px;  box-sizing: border-box; }
+ figcaption { box-sizing: border-box; }
+ object { display: block; margin: 0px; box-sizing: border-box; }
+ audio { display: block; margin: 0px; box-sizing: border-box; }
+ video { display: block; margin: 0px; box-sizing: border-box; }
+ img { display: block; margin: 0px; box-sizing: border-box; }
+ canvas { display: block; margin: 0px; box-sizing: border-box; }
+ iframe { display: block; margin: 0px;
+   box-sizing: border-box; border: none; }
 
-/* Form Declarations */
-form {margin: 0px; box-sizing: border-box;}
-fieldset {margin: 0px; padding: 0px; border: 0px; box-sizing: border-box;}
-legend {padding: 0px; box-sizing: border-box;}
-input {display: block; box-sizing: border-box;}
-textarea {display: block; box-sizing: border-box;}
-select {display: block; box-sizing: border-box;}
-keygen {display: block; box-sizing: border-box;}
+ /* Form Declarations */
+ form { margin: 0px; box-sizing: border-box; }
+ fieldset { margin: 0px; padding: 0px; border: 0px; box-sizing: border-box; }
+ legend { padding: 0px; box-sizing: border-box; }
+ label { display: inline; margin: 0px; padding: 0px; }
+ input { display: block; box-sizing: border-box; }
+ textarea { display: block; box-sizing: border-box; }
+ select { display: block; box-sizing: border-box; }
 
-/* List Declarations */
-dl {margin: 0px; box-sizing: border-box;}
-ul {margin: 0px; padding: 0px; box-sizing: border-box;}
-ol {margin: 0px; padding: 0px; box-sizing: border-box;}
-li {display: block; box-sizing: border-box;}
-dd {margin: 0px; box-sizing: border-box;}
+ /* List Declarations */
+ li { margin: 0px; }
+ ul { margin: 0px; padding: 0px; list-style: circle inside;
+   box-sizing: border-box; }
+ ol { margin: 0px; padding: 0px; list-style: decimal inside;
+   box-sizing: border-box; }
+ dl { margin: 0px; padding: 0px; list-style: decimal inside;
+   box-sizing: border-box; }
+ dt { margin: 0px; box-sizing: border-box; font-style: italic; }
+ dd { margin: 0px; box-sizing: border-box; }
 
-/* Table Declarations */
-table {border-collapse: collapse; border: 0px; box-sizing: border-box;}
-caption {text-align: left; box-sizing: border-box;}
-th {font-weight: normal; text-align: left; box-sizing: border-box;}
-tr {box-sizing: border-box;}
-td {box-sizing: border-box;}
-thead {box-sizing: border-box;}
-tbody {box-sizing: border-box;}
-tfoot {box-sizing: border-box;}
+ /* Table Declarations */
+ table { border-collapse: collapse; border: 0px; box-sizing: border-box; }
+ caption { text-align: left; margin-bottom: 1.5rem; box-sizing: border-box; }
+ th { font-weight: normal; text-align: left; box-sizing: border-box; }
+ tr { box-sizing: border-box; }
+ td { box-sizing: border-box; font-size: 1.4rem; }
+ thead { box-sizing: border-box; }
+ tbody { box-sizing: border-box; }
+ tfoot { box-sizing: border-box; }
 
 /* Add custom declarations here. */
