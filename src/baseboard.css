@@ -57,7 +57,7 @@ q:after { content: ""; }
 
 /* Media Declarations */
 figure { display: table; width: 100%; margin: 0; padding: 0; }
-figcaption { display: table-caption; margin: 0; padding: 0;
+figcaption { display: table-caption; width: 100%; margin: 0; padding: 0;
   caption-side: bottom; }
 object { display: block; margin: 0; padding: 0; box-sizing: border-box; }
 audio { display: block; margin: 0; padding: 0; box-sizing: border-box; }
