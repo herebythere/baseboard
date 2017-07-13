@@ -56,9 +56,9 @@ q:before { content: ""; }
 q:after { content: ""; }
 
 /* Media Declarations */
-figure { display: block; width: 100%; margin: 0;
-  padding: 0; box-sizing: border-box; }
-figcaption { display: block; margin: 0; padding: 0; box-sizing: border-box; }
+figure { display: table; width: 100%; margin: 0; padding: 0; }
+figcaption { display: table-caption; margin: 0; padding: 0;
+  caption-side: bottom; }
 object { display: block; margin: 0; padding: 0; box-sizing: border-box; }
 audio { display: block; margin: 0; padding: 0; box-sizing: border-box; }
 video { display: block; margin: 0; padding: 0; box-sizing: border-box; }
@@ -101,5 +101,4 @@ td { margin: 0; padding: 0; font-size: 1.5rem; box-sizing: border-box; }
 thead { margin: 0; padding: 0; box-sizing: border-box; }
 tbody { margin: 0; padding: 0; box-sizing: border-box; }
 tfoot { margin: 0; padding: 0; box-sizing: border-box; }
-
 /* Add custom declarations here. */
