@@ -1,9 +1,7 @@
 /* Baseboard v0.7 | Copywrite 2017 MIT License - Brian Taylor Vann */
 
 /* Put @font-faces here... */
-html {
-  font-size: 62.5%;
-}
+html { font-size: 62.5%; }
 
 /* Document Declarations */
 body { margin: 0px; font-size: 1.6rem; line-height: 2.56rem;
