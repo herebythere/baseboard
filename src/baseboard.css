@@ -1,5 +1,8 @@
 /* Baseboard v0.8 | Copywrite 2017 Brian Taylor Vann | MIT License */
 
+/* Put @font-faces here.*/
+
+/* Semantics */
 html { font-size: 62.5%; }
 body { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
   line-height: 2.56rem; font-weight: normal; font-style: normal;
@@ -111,3 +114,5 @@ td { margin: 0; padding: 0; box-sizing: border-box; }
 thead { margin: 0; padding: 0; box-sizing: border-box; }
 tbody { margin: 0; padding: 0; box-sizing: border-box;}
 tfoot { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Put custom declarations here. */
