@@ -1,0 +1,123 @@
+/* Baseboard v0.8 | Copywrite 2017 Brian Taylor Vann | MIT License */
+
+@base-clr: #000000;
+@mark-clr: #f0f0f0;
+
+.base-box() {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.base-type( @font: 1.6rem; @height: 2.56rem;
+  @weight: normal; @style: normal; ) {
+  font-size: @font;
+  line-height: @height;
+  font-weight: @weight;
+  font-style: @style;
+}
+
+.base-inline( @pad: 0; @size: 1.6rem; @vert: middle;
+  @height: 2.56rem; @style: normal; ) {
+  padding: @pad;
+  font-size: @size;
+  font-style: @style;
+  line-height: @height;
+  vertical-align: @vert;
+}
+
+.base-input() {
+  display: block;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.base-media( @display: block; ) {
+  display: @display;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.base-table() {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* baseboard in less */
+/* semantics */
+html { font-size: 62.5%; }
+body { .base-box(); .base-type(); word-wrap: break-word; overflow-x: hidden; }
+header { .base-box(); }
+main { .base-box(); }
+footer { .base-box(); }
+section { .base-box(); }
+article { .base-box(); }
+div { .base-box(); }
+menu { .base-box(); list-style: none; }
+nav { .base-box(); }
+address { .base-box(); font-style: normal; }
+summary { .base-box(); list-style: none; }
+details { .base-box(); }
+aside { .base-box(); }
+blockquote { .base-box();  }
+hr { .base-box(); }
+a:active { outline: 0; }
+
+/* type */
+h1 { .base-box(); .base-type(); }
+h2 { .base-box(); .base-type(); }
+h3 { .base-box(); .base-type(); }
+h4 { .base-box(); .base-type(); }
+h5 { .base-box(); .base-type(); }
+h6 { .base-box(); .base-type(); }
+p { .base-box(); }
+pre { .base-box(); line-height: 1.8rem; }
+code { .base-inline( @size: 1.4rem; @height: 1.8rem; ); overflow: auto; }
+samp { .base-inline( @size: 1.4rem; ); }
+kbd { .base-inline( @size: 1.4rem; ); }
+mark { .base-inline(); background-color: @mark-clr; }
+sup { .base-inline( @vert: top; ); }
+sub { .base-inline( @vert: bottom; ); }
+q:before { content: ""; }
+q:after { content: ""; }
+
+/* media */
+figure { .base-media( @display: table; ); }
+figcaption { .base-media( @display: table-caption ); caption-side: bottom; }
+object { .base-media(); }
+audio { .base-media(); }
+video { .base-media(); }
+img { .base-media(); }
+canvas { .base-media(); }
+iframe { .base-media(); border: none; }
+
+/* Form */
+form { .base-box(); }
+fieldset { .base-box(); border: none; }
+legend { .base-box(); }
+label { .base-box(); display: block; }
+input { .base-input(); }
+textarea { .base-input(); }
+select { .base-input(); }
+
+/* list */
+li { .base-box(); }
+ul { .base-box(); list-style: circle inside; }
+ol { .base-box(); list-style: decimal inside; }
+dl { .base-box(); }
+dt { .base-box(); font-style: italic; }
+dd { .base-box(); }
+
+/* tables */
+table { .base-table(); border-collapse: collapse; border: 0; }
+caption { .base-table(); text-align: left; }
+th { .base-table(); font-weight: normal; text-align: left; }
+tr { .base-table(); }
+td { .base-table(); }
+thead { .base-table(); }
+tbody { .base-table(); }
+tfoot { .base-table(); }

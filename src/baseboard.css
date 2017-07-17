@@ -1,102 +1,113 @@
-/* Baseboard v0.7 | Copywrite 2017 MIT License - Brian Taylor Vann */
+/* Baseboard v0.8 | Copywrite 2017 Brian Taylor Vann | MIT License */
 
-/* Put @font-faces here... */
 html { font-size: 62.5%; }
-
-/* Document Declarations */
-body { margin: 0px; font-size: 1.6rem; line-height: 2.56rem;
-       word-wrap: break-word; overflow-x: hidden; }
-
-/* Semantic Declarations */
+body { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  word-wrap: break-word; overflow-x: hidden; box-sizing: border-box; }
 header { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
 main { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
 footer { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
-h1 { margin: 0; padding: 0; font-size: 1.6rem;
-  font-weight: normal; box-sizing: border-box; }
-h2 { margin: 0; padding: 0; font-size: 1.6rem;
-  font-weight: normal; box-sizing: border-box; }
-h3 { margin: 0; padding: 0; font-size: 1.6rem;
-  font-weight: normal; box-sizing: border-box; }
-h4 { margin: 0; padding: 0; font-size: 1.6rem;
-  font-weight: normal; box-sizing: border-box; }
-h5 { margin: 0; padding: 0; font-size: 1.6rem;
-  font-weight: normal; box-sizing: border-box; }
-h6 { margin: 0; padding: 0; font-size: 1.6rem;
-  font-weight: normal; box-sizing: border-box; }
-section { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-article { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-div { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-p { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-menu { width:100%; margin: 0; padding: 0;
+section { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+article { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+div { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+menu { width: 100%; margin: 0; padding: 0;
   box-sizing: border-box; list-style: none; }
-nav { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-address { width:100%; margin: 0; padding: 0;
-  font-style: normal; box-sizing: border-box; }
-summary { width:100%; margin: 0; padding: 0; font-style: normal;
-  list-style: none; box-sizing: border-box; }
-details { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-aside { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-blockquote { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-hr { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
-a:active { outline: none; }
+nav { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+address { width: 100%; margin: 0; padding: 0;
+  box-sizing: border-box; font-style: normal; }
+summary { width: 100%; margin: 0; padding: 0;
+  box-sizing: border-box; list-style: none; }
+details { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+aside { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+blockquote { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+hr { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+a:active { outline: 0; }
 
-/* Text Declarations */
-pre { width:100%; margin: 0; padding: 0;
-  line-height: 1rem; box-sizing: border-box; }
-code { padding: 0; font-size: 1.4rem;
-  vertical-align: middle; overflow: auto; }
-samp { padding: 0; font-size: 1.4rem; vertical-align: middle; }
-kbd { padding: 0; font-size: 1.4rem; vertical-align: middle; }
-mark { padding: 0; background-color: #f0f0f0; }
-sup { vertical-align: top; line-height: 1em; }
-sub { vertical-align: bottom; line-height: 1em; }
+/* Type */
+h1 { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  box-sizing: border-box; }
+h2 { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  box-sizing: border-box; }
+h3 { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  box-sizing: border-box; }
+h4 { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  box-sizing: border-box; }
+h5 { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  box-sizing: border-box; }
+h6 { width: 100%; margin: 0; padding: 0; font-size: 1.6rem;
+  line-height: 2.56rem; font-weight: normal; font-style: normal;
+  box-sizing: border-box; }
+p { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+pre { width: 100%; margin: 0; padding: 0;
+  box-sizing: border-box; line-height: 1.8rem; }
+code { padding: 0; font-size: 1.4rem; font-style: normal;
+  line-height: 1.8rem; vertical-align: middle; overflow: auto; }
+samp { padding: 0; font-size: 1.4rem; font-style: normal;
+  line-height: 2.56rem; vertical-align: middle; }
+kbd { padding: 0; font-size: 1.4rem; font-style: normal;
+  line-height: 2.56rem; vertical-align: middle; }
+mark { padding: 0; font-size: 1.6rem; font-style: normal;
+  line-height: 2.56rem; vertical-align: middle; background-color: #f0f0f0; }
+sup { padding: 0; font-size: 1.6rem; font-style: normal;
+  line-height: 2.56rem; vertical-align: top; }
+sub { padding: 0; font-size: 1.6rem; font-style: normal;
+  line-height: 2.56rem; vertical-align: bottom; }
 q:before { content: ""; }
 q:after { content: ""; }
+/* media */
+figure { display: table; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; }
+figcaption { display: table-caption; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; caption-side: bottom; }
+object { display: block; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; }
+audio { display: block; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; }
+video { display: block; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; }
+img { display: block; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; }
+canvas { display: block; max-width: 100%;
+  margin: 0; padding: 0; box-sizing: border-box; }
+iframe { display: block; max-width: 100%; margin: 0; padding: 0;
+  box-sizing: border-box; border: none; }
 
-/* Media Declarations */
-figure { display: table; width: 100%; margin: 0; padding: 0; }
-figcaption { display: table-caption; width: 100%; margin: 0; padding: 0;
-  caption-side: bottom; }
-object { display: block; margin: 0; padding: 0; box-sizing: border-box; }
-audio { display: block; margin: 0; padding: 0; box-sizing: border-box; }
-video { display: block; margin: 0; padding: 0; box-sizing: border-box; }
-img { display: block; margin: 0; padding: 0; box-sizing: border-box; }
-canvas { display: block; margin: 0; padding: 0; box-sizing: border-box; }
-iframe { display: block; margin: 0; padding: 0;
-  border: none; box-sizing: border-box; }
-
-/* Form Declarations */
-form { width:100%; margin: 0; padding: 0; box-sizing: border-box; }
+/* Forms */
+form { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
 fieldset { width: 100%; margin: 0; padding: 0;
-  border: 0; box-sizing: border-box; }
-legend { width:100%; margin: 0; padding: 0;
-  box-sizing: border-box; }
-label { display: block; width:100%; margin: 0; padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box; border: none; }
+legend { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
+label { width: 100%; margin: 0; padding: 0;
+  box-sizing: border-box; display: block; }
 input { display: block; margin: 0; box-sizing: border-box; }
-textarea { display: block; margin: 0; padding: 0; box-sizing: border-box; }
+textarea { display: block; margin: 0; box-sizing: border-box; }
 select { display: block; margin: 0; box-sizing: border-box; }
 
-/* List Declarations */
+/* Lists */
 li { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
-ul { width: 100%; margin: 0; padding: 0; list-style: circle inside;
-  box-sizing: border-box; }
-ol { width: 100%; margin: 0; padding: 0; list-style: decimal inside;
-  box-sizing: border-box; }
+ul { width: 100%; margin: 0; padding: 0; box-sizing: border-box;
+  list-style: circle inside; }
+ol { width: 100%; margin: 0; padding: 0; box-sizing: border-box;
+  list-style: decimal inside; }
 dl { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
 dt { width: 100%; margin: 0; padding: 0;
-  font-style: italic; box-sizing: border-box; }
+  box-sizing: border-box; font-style: italic; }
 dd { width: 100%; margin: 0; padding: 0; box-sizing: border-box; }
 
-/* Table Declarations */
-table { width: 100%; margin: 0; padding: 0; border-collapse: collapse;
-  border: 0; box-sizing: border-box; }
-caption { margin: 0; padding: 0; text-align: left; box-sizing: border-box; }
-th { margin: 0; padding: 0; font-weight: normal;
-  text-align: left; box-sizing: border-box; }
+/* Tables */
+table {
+  margin: 0; padding: 0; box-sizing: border-box;
+  border-collapse: collapse; border: 0; }
+caption { margin: 0; padding: 0; box-sizing: border-box; text-align: left; }
+th { margin: 0; padding: 0; box-sizing: border-box;
+  font-weight: normal; text-align: left; }
 tr { margin: 0; padding: 0; box-sizing: border-box; }
-td { margin: 0; padding: 0; font-size: 1.5rem; box-sizing: border-box; }
+td { margin: 0; padding: 0; box-sizing: border-box; }
 thead { margin: 0; padding: 0; box-sizing: border-box; }
-tbody { margin: 0; padding: 0; box-sizing: border-box; }
+tbody { margin: 0; padding: 0; box-sizing: border-box;}
 tfoot { margin: 0; padding: 0; box-sizing: border-box; }
-/* Add custom declarations here. */
