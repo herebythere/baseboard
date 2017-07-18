@@ -81,14 +81,14 @@ code { .base-inline( @size: 1.4rem; @height: 1.8rem; ); overflow: auto; }
 samp { .base-inline( @size: 1.4rem; ); }
 kbd { .base-inline( @size: 1.4rem; ); }
 mark { .base-inline(); background-color: @mark-clr; }
-sup { .base-inline( @vert: top; ); }
-sub { .base-inline( @vert: bottom; ); }
+sup { .base-inline( @vert: super; @height: 0; ); }
+sub { .base-inline( @vert: sub; @height: 0; ); }
 q:before { content: ""; }
 q:after { content: ""; }
 
 /* Media */
 figure { .base-media( @display: table; ); }
-figcaption { .base-media( @display: table-caption ); caption-side: bottom; }
+figcaption { .base-media( @display: table-caption; ); caption-side: bottom; }
 object { .base-media(); }
 audio { .base-media(); }
 video { .base-media(); }
