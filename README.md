@@ -8,7 +8,7 @@ Baseboard is a better place to start stylesheets.
 
 Function, flow, and experience should be created by design teams and developers, not libraries or boilerplates. Baseboard supports this philosophy and lets you begin from (almost) nothing.
 
-Baseboard is an alternative to *Reset* and *Normalize* and delivers a semantic reduction with a minimal footprint ( < 2.5kb ).
+Baseboard is an alternative to *Reset* and *Normalize* and delivers a semantic reduction with a minimal footprint.
 
 It's modular and easy to debug. There are no repeated declarations and each element derives from a single inheritance chain.
 
