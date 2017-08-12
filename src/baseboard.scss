@@ -1,0 +1,70 @@
+/* Baseboard v0.9 | Copywrite 2017 Brian Taylor Vann | MIT License */
+
+@mixin base() { margin: 0; padding: 0; box-sizing: border-box; }
+@mixin base-block() { display: block; margin: 0; box-sizing: border-box; }
+
+/* Put @font-faces here.*/
+
+/* Semantics */
+html { font-size: 62.5%; }
+body { @include base(); font-size: 1.6rem; line-height: 2.56rem;
+  word-wrap: break-word; overflow-x: hidden; }
+main, header, footer { @include base(); }
+section, article { @include base(); }
+div { @include base(); }
+summary, details { @include base(); }
+summary { list-style: none; }
+aside, blockquote { @include base(); }
+address { @include base(); font-style: normal; }
+menu, nav { @include base(); }
+menu { list-style: none; }
+hr { @include base(); }
+a { text-decoration: none; }
+
+/* Type */
+h1, h2, h3, h4, h5, h6 {
+  @include base(); font-size: 1.6rem; font-weight: normal; line-height: 2.56rem;
+}
+p { @include base(); }
+pre { @include base(); }
+em, i, cite, dfn { font-style: italic; }
+del, s { text-decoration: line-through; }
+u, ins { text-decoration: underline; }
+code, samp, kbd {
+  font-family: monospace, monospace; font-size: 1.4rem; vertical-align: middle;
+}
+sup, sub { font-size: 1.4rem; line-height: 0; }
+sup { vertical-align: super; }
+sub { vertical-align: sub; }
+q:before, q:after { content: ""; }
+
+/* Media */
+figure, figcaption { @include base; }
+img, audio, video, canvas, object, iframe {
+  @include base;
+}
+iframe { border: none; }
+
+/* Forms */
+form { @include base(); }
+fieldset, legend { @include base(); }
+fieldset { border: none; }
+input, textarea, select { @include base-block(); }
+label { @include base-block(); }
+
+/* Lists */
+ul, ol, dl { @include base(); }
+li, dt, dd { @include base(); }
+ul { list-style: circle inside; }
+ol { list-style: decimal inside; }
+dt { font-style: italic; }
+
+/* Tables */
+table { @include base(); border-collapse: collapse; border: 0; }
+caption { @include base(); text-align: left; }
+thead, tbody, tfoot { @include base(); }
+tr { @include base(); }
+th, td { @include base(); }
+th { font-weight: normal; text-align: left; }
+
+/* Put custom declarations here. */

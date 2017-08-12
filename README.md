@@ -10,11 +10,14 @@ Function, flow, and experience should be created by design teams and developers,
 
 Baseboard is an alternative to *Reset* and *Normalize* and delivers a semantic reduction with a minimal footprint.
 
-It's modular and easy to debug. There are no repeated declarations and each element derives from a single inheritance chain.
+It's modular and easy to debug. There are no repeated declarations. Each element is apart of a single, semantic inheritance chain.
 
 The purpose of Baseboard is to give developers, artists, and designers a little more control and a fair blank-slate. It's the best place to start new projects.
 
-Included are a main, min, and a less file.
+Included:
+* baseboard.css (2.4 kb)
+* baseboard-min.css (1.8 kb)
+* baseboard.scss (2 kb)
 
 ## Usage ##
 
