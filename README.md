@@ -6,7 +6,7 @@ Baseboard is a better place to start stylesheets.
 
 ## Details ##
 
-Baseboard is an alternative to *Reset* and *Normalize*. It utilizes a semantic inheritance chain to make future styling easy to bug.
+Baseboard is an alternative to *Reset* and *Normalize*. It uses a semantic inheritance chain to make future styling easy to debug.
 
 The purpose of Baseboard is to give developers, artists, and designers a fair blank-slate. It's the best place to start new projects.
 
