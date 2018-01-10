@@ -2,7 +2,6 @@
 
 /* Semantics */
 html { font-size: 62.5%; }
-
 body {
   font-size: 1.6rem;
   line-height: 2.56rem;
@@ -65,7 +64,7 @@ figure, figcaption, img, audio, video, canvas, object, iframe {
 iframe { border: none; }
 
 /* Forms */
-form, fieldset, label, legend, input, textarea, select {
+form, fieldset, label, legend, input, textarea, select, button {
   display: block;
   margin: 0;
   padding: 0;
@@ -73,7 +72,10 @@ form, fieldset, label, legend, input, textarea, select {
 }
 
 fieldset { border: none; }
-input[type="submit"], input[type="reset"] { cursor: pointer }
+input[type="submit"], input[type="reset"],
+input[type="button"], button {
+  cursor: pointer
+}
 
 /* Lists */
 ul, ol, dl, li, dt, dd {
@@ -84,7 +86,6 @@ ul, ol, dl, li, dt, dd {
 
 ul { list-style: circle inside; }
 ol { list-style: decimal inside; }
-dt { font-style: italic; }
 
 /* Tables */
 table, caption, thead, tbody, tfoot, tr, th, td  {
