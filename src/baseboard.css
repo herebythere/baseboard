@@ -4,7 +4,7 @@
 html { font-size: 62.5%; }
 body {
   font-size: 1.6rem;
-  line-height: 2.56rem;
+  line-height: 1;
   vertical-align: baseline;
   word-wrap: break-word;
   overflow-x: hidden;
