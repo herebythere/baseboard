@@ -1,18 +1,15 @@
 # Baseboard #
 
-## Abstract ##
-
-Baseboard is a better place to start stylesheets.
+Baseboard is a better place to start your stylesheets.
 
 ## Details ##
 
-Baseboard is an alternative to *Reset* and *Normalize*. It uses a semantic inheritance chain to make future styling easy to debug.
-
-The purpose of Baseboard is to give developers, artists, and designers a fair blank-slate. It's the best place to start new projects.
+Baseboard is an alternative to *Reset* and *Normalize*. It uses a semantic base to make future styling and inheritance easy to debug; no more mile-long tag-chaining.
 
 ## Usage ##
 
 Grab `baseboard.css` from the src directory and copy it into your resources.
+Alternatively, you can install it from `npm install baseboard.css`.
 
 ## License ##
 

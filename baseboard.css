@@ -1,7 +1,10 @@
-/* Baseboard v1.1 | Copywrite 2018 Brian Taylor Vann | MIT License */
+/* Baseboard v1.2 | Copywrite 2018 Brian Taylor Vann | MIT License */
 
 /* Semantics */
-html { font-size: 62.5%; }
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-size: 1.6rem;
   line-height: 1;
@@ -24,8 +27,13 @@ summary, details, aside, blockquote, address, menu, nav, hr {
   box-sizing: border-box;
 }
 
-summary, menu { list-style: none; }
-address { font-style: normal; }
+summary, menu {
+  list-style: none;
+}
+
+address {
+  font-style: normal;
+}
 
 /* Type */
 h1, h2, h3, h4, h5, h6, p, pre {
@@ -37,20 +45,35 @@ h1, h2, h3, h4, h5, h6, p, pre {
   font-weight: normal;
 }
 
-a {  font-size: 1.6rem; }
-em, i, cite, dfn { font-style: italic; }
-del, s { text-decoration: line-through; }
-u, ins { text-decoration: underline; }
+a {
+  cursor: pointer
+}
+
+em, i, cite, dfn {
+  font-style: italic;
+}
+
+del, s {
+  text-decoration: line-through;
+}
+
+u, ins {
+  text-decoration: underline;
+}
 
 code, samp, kbd {
   font-family: monospace, monospace;
   font-size: 1.4rem;
 }
 
-sup, sub { font-size: 1.4rem; line-height: 0; }
-sup { vertical-align: super; }
-sub { vertical-align: sub; }
-q:before, q:after { content: ""; }
+sup, sub {
+  font-size: 1.4rem;
+  line-height: 0;
+}
+
+q:before, q:after {
+  content: "";
+}
 
 /* Media */
 figure, figcaption, img, audio, video, canvas, object, iframe {
@@ -61,7 +84,9 @@ figure, figcaption, img, audio, video, canvas, object, iframe {
   border: none;
 }
 
-iframe { border: none; }
+iframe {
+  border: none;
+}
 
 /* Forms */
 form, fieldset, label, legend, input, textarea, select, button {
@@ -71,7 +96,10 @@ form, fieldset, label, legend, input, textarea, select, button {
   box-sizing: border-box;
 }
 
-fieldset { border: none; }
+fieldset {
+  border: none;
+}
+
 input[type="submit"], input[type="reset"],
 input[type="button"], button {
   cursor: pointer
@@ -84,8 +112,13 @@ ul, ol, dl, li, dt, dd {
   box-sizing: border-box;
 }
 
-ul { list-style: circle inside; }
-ol { list-style: decimal inside; }
+ul {
+  list-style: circle inside;
+}
+
+ol {
+  list-style: decimal inside;
+}
 
 /* Tables */
 table, caption, thead, tbody, tfoot, tr, th, td  {
@@ -94,6 +127,16 @@ table, caption, thead, tbody, tfoot, tr, th, td  {
   box-sizing: border-box;
 }
 
-table { border-collapse: collapse; border: 0; }
-caption { text-align: left; }
-th { font-weight: normal; text-align: left; }
+table {
+  border-collapse: collapse;
+  border: 0;
+}
+
+caption {
+  text-align: left;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
