@@ -9,7 +9,10 @@ Baseboard is an alternative to *Reset* and *Normalize*. It uses a semantic base 
 ## Usage ##
 
 Grab `baseboard.css` from the src directory and copy it into your resources.
-Alternatively, you can install it from `npm install baseboard.css`.
+
+Alternatively, you can install it from:
+
+`npm install baseboard.css`
 
 ## License ##
 
