@@ -1,6 +1,6 @@
 {
-  "name": "baseboard",
-  "version": "1.0.1",
+  "name": "baseboard.css",
+  "version": "1.2.0",
   "description": "A better place to start your stylesheets.",
   "main": "baseboard.css",
   "scripts": {
