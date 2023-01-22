@@ -8,5 +8,4 @@ Copy `baseboard.css` into your style resources.
 
 ## License
 
-Baseboard is released under the
-[MIT License](https://opensource.org/licenses/MIT).
+Baseboard is released under the BSD 3-Clause "New" or "Revised" License.
