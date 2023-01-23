@@ -1,77 +1,60 @@
 /* Semantics */
 html {
   font-size: 1.5vh;
+  line-height: 1;
   min-height: 100vh;
+  vertical-align: baseline;
+}
+
+address, article, aside, blockquote, body, details, div,
+footer, header, hr, main, menu, nav, section, summary {
+  box-sizing: border-box;
+}
+
+body, hr, blockquote, p, section {
+	margin: 0;
 }
 
 body {
-  font-size: 1.5vh;
-  line-height: 1;
-  vertical-align: baseline;
-  word-wrap: break-word;
   min-height: 100%;
 }
 
-body, main, header, footer, section, article, div {
-  display: block;
+aside, article, blockquote, menu, nav, summary, hr {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
-summary, details, aside, blockquote, address, menu, nav, hr {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-summary, menu {
+menu {
   list-style: none;
+  padding: 0;
 }
 
 address {
   font-style: normal;
 }
 
-/* Type */
-h1, h2, h3, h4, h5, h6, p, pre {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 1.5vh;
-  font-weight: normal;
-}
-
 a {
   cursor: pointer
 }
 
+/* Type */
+h1, h2, h3, h4, h5, h6, p, pre {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 em, i, cite, dfn {
-  font-style: italic;
+  font-style: normal;
 }
 
-del, s {
-  text-decoration: line-through;
-}
-
-u, ins {
-  text-decoration: underline;
-}
-
-code, samp, kbd {
+pre, code, samp, kbd {
   font-family: monospace, monospace;
-  font-size: 1.4rem;
 }
 
 sup, sub {
-  font-size: 1.4vh;
+  font-size: inherit;
   line-height: 0;
-}
-
-q:before, q:after {
-  content: "";
 }
 
 /* Media */
@@ -83,9 +66,9 @@ figure, figcaption, img, audio, video, canvas, object, iframe {
   border: none;
 }
 
-iframe {
+/* iframe {
   border: none;
-}
+} */
 
 /* Forms */
 form, fieldset, label, legend, input, textarea, select, button {
@@ -99,8 +82,7 @@ fieldset {
   border: none;
 }
 
-input[type="submit"], input[type="reset"],
-input[type="button"], button {
+button, input[type="submit"], input[type="reset"], input[type="button"], label {
   cursor: pointer
 }
 
@@ -121,8 +103,6 @@ ol {
 
 /* Tables */
 table, caption, thead, tbody, tfoot, tr, th, td  {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
