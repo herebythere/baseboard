@@ -58,17 +58,18 @@ sup, sub {
 }
 
 /* Media */
-figure, figcaption, img, audio, video, canvas, object, iframe {
+figure, figcaption, img, audio, video, canvas, object {
   display: block;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  border: none;
 }
 
-/* iframe {
+figure {
+	margin: 0;
+}
+
+iframe {
   border: none;
-} */
+}
 
 /* Forms */
 form, fieldset, label, legend, input, textarea, select, button {
