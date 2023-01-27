@@ -1,122 +1,61 @@
-/* Semantics */
+/* blanket reset */
+*, ::after, ::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* document */
 html {
-  font-size: 1.5vh;
-  line-height: 1;
   min-height: 100vh;
   vertical-align: baseline;
-}
-
-address, article, aside, blockquote, body, details, div,
-footer, header, hr, main, menu, nav, section, summary {
-  box-sizing: border-box;
-}
-
-body, hr, blockquote, p, section {
-	margin: 0;
 }
 
 body {
   min-height: 100%;
 }
 
-aside, article, blockquote, menu, nav, summary, hr {
-  margin: 0;
+/* borders */
+iframe, fieldset, table, textarea {
+  border: none;
 }
 
-menu {
-  list-style: none;
-  padding: 0;
-}
-
-address {
+/* font-styles */
+address, cite, dfn, em, i, var {
   font-style: normal;
 }
 
-a {
-  cursor: pointer
-}
-
-/* Type */
-h1, h2, h3, h4, h5, h6, p, pre {
-  margin: 0;
-  box-sizing: border-box;
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-em, i, cite, dfn {
-  font-style: normal;
-}
-
-pre, code, samp, kbd {
+code, kbd, pre, samp {
   font-family: monospace, monospace;
 }
 
+/* Type */
 sup, sub {
-  font-size: inherit;
+  font-size: normal;
   line-height: 0;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, caption {
+  font-weight: normal;
+  text-align: start;
+}
+
+th {
+  text-align: start;
 }
 
 /* Media */
 figure, figcaption, img, audio, video, canvas, object {
   display: block;
-  box-sizing: border-box;
-}
-
-figure {
-	margin: 0;
-}
-
-iframe {
-  border: none;
 }
 
 /* Forms */
-form, fieldset, label, legend, input, textarea, select, button {
+fieldset, label, legend, input, textarea, select, button {
   display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-fieldset {
-  border: none;
-}
-
-button, input[type="submit"], input[type="reset"], input[type="button"], label {
-  cursor: pointer
-}
-
-/* Lists */
-ul, ol, dl, li, dt, dd {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: circle inside;
-}
-
-ol {
-  list-style: decimal inside;
-}
-
-/* Tables */
-table, caption, thead, tbody, tfoot, tr, th, td  {
-  box-sizing: border-box;
-}
-
-table {
-  border-collapse: collapse;
-  border: 0;
-}
-
-caption {
-  text-align: left;
-}
-
-th {
-  font-weight: normal;
-  text-align: left;
 }
