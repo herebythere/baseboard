@@ -51,7 +51,7 @@ th {
 }
 
 /* Media */
-figure, figcaption, img, audio, video, canvas, object {
+audio, canvas, img, video, object {
   display: block;
 }
 
