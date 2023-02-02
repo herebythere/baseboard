@@ -7,20 +7,20 @@ body {
   min-height: 100%;
 }
 
-blockquote, ul, menu, dir, ol, dialog, fiedlset, input {
+blockquote, dialog, fiedlset, input, menu, ol, ul  {
 	margin: 0;
 	padding: 0;
 }
 
-td, th, legend, textarea, option {
+legend, th, textarea, th, option {
 	padding: 0;
 }
 
-body, p, hr, dl, multicol, dd, blockquote, figure, pre, xmp, plaintext, listing {
+blockquote, body, dd, dl, figure, hr, listing. multicol, p, plaintext, pre, xmp, {
 	margin: 0;
 }
 
-iframe, fieldset, table, textarea {
+iframe, fieldset {
   border: none;
 }
 
@@ -33,10 +33,6 @@ th, optgorup {
 	font-weight: normal;
 }
 
-th, caption {
-  text-align: start;
-}
-
 address, cite, dfn, em, i, var {
   font-style: normal;
 }
@@ -45,8 +41,11 @@ code, kbd, pre, samp {
   font-family: monospace, monospace;
 }
 
+th, caption {
+  text-align: start;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-

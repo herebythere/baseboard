@@ -2,6 +2,22 @@
 /* https://github.com/WebKit/WebKit/blob/main/Source/WebCore/css/html.css */
 /* https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css */
 
+/* borders */
+
+/* border - moz */
+iframe, dialog {
+	border: 0;
+}
+/* border - webkit */
+iframe, fieldset  {
+	border: 0;
+}
+
+/* border - chromium */
+fieldset, input, textarea, select, iframe, dialog  {
+	border: 0;
+}
+
 /* padding */
 
 /* padding - moz */
