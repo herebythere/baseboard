@@ -7,85 +7,42 @@ body {
   min-height: 100%;
 }
 
-:not(:defined) {
+blockquote, ul, menu, dir, ol, dialog, fiedlset, input {
 	margin: 0;
 	padding: 0;
 }
 
-body, article, aside,  div, footer, header, main, nav, pre, section, table,
-address, blockquote, details, figure, fieldset, figcaption, form, header, hgroup {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-address, blockquote, details, figure, fieldset, figcaption, form, header, hgroup, hr {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-/* padding - moz */
-blockquote, td, th, ul, menu, dir, ol, dialog {
+td, th, legend, textarea, option {
 	padding: 0;
 }
 
-/* padding - webkit */
-legend, fiedlset, ul, menu, dir, ol, textarea  {
-	padding: 0;
-}
-
-/* padding - chromium */
-ul, menu, dir, ol, input, textarea, option, dialog {
-	padding: 0;
-}
-
-/* margin - moz */
-body, ul, menu, dir, ol, hr, dialog, p, dl, multicol, dd, blockquote, figure {
+body, p, hr, dl, multicol, dd, blockquote, figure, pre, xmp, plaintext, listing {
 	margin: 0;
 }
 
-/* margin - webkit */
-body, p, blockquote, figure, hr, ul, menu, dir, ol, dd, dl, fieldset, pre, xmp, plaintext, listing, input {
+iframe, fieldset, table, textarea {
+  border: none;
+}
+
+h1, h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
 	margin: 0;
 }
 
-/* margin - chromium */
-body, p, blockquote, figure, hr, ul, menu, dir, ol, dd, dl, fieldset, input {
-	margin: 0;
+th, optgorup {
+	font-weight: normal;
 }
 
-
-/*  */
-
-h1, h2, h3, h4, h5, h6, p {
-	margin: 0;
-	box-sizing: border-box;
+th, caption {
+  text-align: start;
 }
 
 address, cite, dfn, em, i, var {
   font-style: normal;
 }
 
-/* lists */
-dd, dl, dt, ol, ul {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-/* with borders */
-iframe, fieldset, table, textarea {
-  border: none;
-}
-
 code, kbd, pre, samp {
   font-family: monospace, monospace;
-}
-
-sup, sub {
-  font-size: normal;
-  line-height: 0;
 }
 
 table {
@@ -93,23 +50,3 @@ table {
   border-spacing: 0;
 }
 
-th, caption {
-  font-weight: normal;
-  text-align: start;
-}
-
-th {
-  text-align: start;
-}
-
-input, textarea, select, button {
-	display: block;
-}
-
-audio, canvas, img, video, object {
-  display: block;
-}
-
-fieldset, label, legend {
-  display: block;
-}
