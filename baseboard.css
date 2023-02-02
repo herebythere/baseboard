@@ -1,141 +1,51 @@
-/* Semantics */
 html {
-  font-size: 1.5vh;
   min-height: 100vh;
+  vertical-align: baseline;
 }
 
 body {
-  font-size: 1.5vh;
-  line-height: 1;
-  vertical-align: baseline;
-  word-wrap: break-word;
   min-height: 100%;
 }
 
-body, main, header, footer, section, article, div {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+blockquote, dialog, fiedlset, input, menu, ol, ul  {
+	margin: 0;
+	padding: 0;
 }
 
-summary, details, aside, blockquote, address, menu, nav, hr {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+legend, th, textarea, th, option {
+	padding: 0;
 }
 
-summary, menu {
-  list-style: none;
+blockquote, body, dd, dl, figure, hr, listing. multicol, p, plaintext, pre, xmp, {
+	margin: 0;
 }
 
-address {
+iframe, fieldset {
+  border: none;
+}
+
+h1, h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+th, optgorup {
+	font-weight: normal;
+}
+
+address, cite, dfn, em, i, var {
   font-style: normal;
 }
 
-/* Type */
-h1, h2, h3, h4, h5, h6, p, pre {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 1.5vh;
-  font-weight: normal;
-}
-
-a {
-  cursor: pointer
-}
-
-em, i, cite, dfn {
-  font-style: italic;
-}
-
-del, s {
-  text-decoration: line-through;
-}
-
-u, ins {
-  text-decoration: underline;
-}
-
-code, samp, kbd {
+code, kbd, pre, samp {
   font-family: monospace, monospace;
-  font-size: 1.4rem;
 }
 
-sup, sub {
-  font-size: 1.4vh;
-  line-height: 0;
-}
-
-q:before, q:after {
-  content: "";
-}
-
-/* Media */
-figure, figcaption, img, audio, video, canvas, object, iframe {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-}
-
-iframe {
-  border: none;
-}
-
-/* Forms */
-form, fieldset, label, legend, input, textarea, select, button {
-  display: block;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-fieldset {
-  border: none;
-}
-
-input[type="submit"], input[type="reset"],
-input[type="button"], button {
-  cursor: pointer
-}
-
-/* Lists */
-ul, ol, dl, li, dt, dd {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: circle inside;
-}
-
-ol {
-  list-style: decimal inside;
-}
-
-/* Tables */
-table, caption, thead, tbody, tfoot, tr, th, td  {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+th, caption {
+  text-align: start;
 }
 
 table {
   border-collapse: collapse;
-  border: 0;
-}
-
-caption {
-  text-align: left;
-}
-
-th {
-  font-weight: normal;
-  text-align: left;
+  border-spacing: 0;
 }

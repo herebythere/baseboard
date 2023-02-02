@@ -1,6 +1,12 @@
 # Baseboard
 
-Baseboard is a stylesheet that normalizes HTMLElements across browsers. It uses semantic groups to make styling and inheritance easier to debug.
+Baseboard is a stylesheet that can help you get started on projects.
+
+- styles based on css references for firefox, webkit, and chromium
+- dont * out everything
+- avoid typography, always re-styled
+- no itialic styles except for <i> elements
+- no bold styles except for <b> or <strong>
 
 ## Usage
 
@@ -8,4 +14,4 @@ Copy `baseboard.css` into your style resources.
 
 ## License
 
-Baseboard is released under the BSD 3-Clause "New" or "Revised" License.
+BSD 3-Clause "New" or "Revised" License.

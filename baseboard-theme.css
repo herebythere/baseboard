@@ -1,0 +1,28 @@
+/*
+this css file is for themes and opinions
+
+tihs might not be designing for a point
+
+want to have:
+	- typograhy
+	- font family
+	- font sizes for different elements
+	- 6 part color swatches
+	- swatches 
+	- type colors
+	- 
+	
+*/
+
+html {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+/* pointer elements */
+a, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  cursor: pointer
+}
+
+
+
