@@ -3,6 +3,7 @@
 Baseboard is a stylesheet that can help you get started on projects.
 
 - styles based on css references for firefox, webkit, and chromium
+- dont include deprecated elements
 - dont * out everything
 - avoid typography, always re-styled
 - no itialic styles except for <i> elements

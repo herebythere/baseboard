@@ -86,3 +86,30 @@ h1, h2, h3, h4, h5, h6, th, optgroup {
 	font-weight: normal;
 }
 
+/* font-family */
+
+/* font-family */
+xmp, pre, plaintext, tt, code, kbd, samp {
+	font-family: monospace, monospace;
+}
+
+/* font-family - webkit */
+tt, code, kbd, samp, pre, xmp, plaintext, listing {
+	font-family: monospace, monospace;
+}
+	
+/* font-family - chromium */
+tt, code, kbd, samp, pre, xmp, plaintext, listing {
+	font-family: monospace, monospace;
+}
+
+/* font-weight - chromium */
+tt, code, kbd, samp, pre, xmp, plaintext, listing  {
+	font-family: monospace, monospace;
+}
+
+/* font-weight - chromium */
+h1, h2, h3, h4, h5, h6, th, optgroup {
+	font-weight: normal;
+}
+
