@@ -16,7 +16,7 @@ blockquote, dialog, fiedlset, menu, ol, ul  {
 	padding: 0;
 }
 
-blockquote, body, dd, dl, figure, hr, input, multicol, p, pre, {
+blockquote, body, dd, dl, figure, hr, input, p, pre, {
 	margin: 0;
 }
 
