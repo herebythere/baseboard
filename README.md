@@ -1,18 +1,21 @@
 # Baseboard
 
-Baseboard is a stylesheet that can help you get started on projects.
+Baseboard is a minimalist stylesheet for web projects.
 
-- styles based on css references for firefox, webkit, and chromium
-- dont include deprecated elements
-- dont * out everything
-- avoid typography, always re-styled
-- no itialic styles except for <i> elements
-- no bold styles except for <b> or <strong>
+Baseboad is built with the following design contraints:
+- styles are based on firefox, webkit, and chromium defaults
+- no wildcard (*) rules
+- do not inlcude deprecated elements
+- assume nothing about typography
+- no italic styles excpet for `<i>` elements
+- no bold styles except for `<b>` or `<strong>` elements
 
-## Usage
 
-Copy `baseboard.css` into your style resources.
+baseboard theme should provide typography and baselines
+- font colors
+- font sizes
+- baseline heights
 
 ## License
 
-BSD 3-Clause "New" or "Revised" License.
+BSD 3-Clause License.

@@ -1,6 +1,13 @@
-/* https://searchfox.org/mozilla-central/source/layout/style/res/html.css */
-/* https://github.com/WebKit/WebKit/blob/main/Source/WebCore/css/html.css */
-/* https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css */
+/*
+	Browser Concerns
+	
+	It's impossible to account for all browser discrepencies.
+
+	https://searchfox.org/mozilla-central/source/layout/style/res/html.css
+	https://github.com/WebKit/WebKit/blob/main/Source/WebCore/css/html.css
+	https://chromium.googlesource.com/chromium/blink/+/master/Source/core/css/html.css
+*/
+
 
 /* borders */
 
