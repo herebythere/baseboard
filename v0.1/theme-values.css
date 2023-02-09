@@ -1,5 +1,4 @@
 :root {
-
 	--line-height: 2rem;
 	--color: #121212;
 	--background: repeating-linear-gradient(#efefef, #efefef var(--line-height), #ffffff var(--line-height), #ffffff calc(var(--line-height) * 2));
