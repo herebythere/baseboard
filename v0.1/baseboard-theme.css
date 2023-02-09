@@ -34,14 +34,9 @@ h6 {
 	color: var(--h6-color);
 }
 
-code, kbd, pre, samp {
+code, pre, samp {
 	font: var(--code-font);
 	color: var(--code-color);
-}
-
-address, cite, th {
-	font: var(--font);
-	color: var(--color);
 }
 
 sub, sup {
