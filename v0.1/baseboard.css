@@ -1,6 +1,5 @@
 html {
 	min-height: 100vh;
-	vertical-align: baseline;
 }
 
 body {
@@ -11,12 +10,12 @@ iframe, fieldset {
 	border: none;
 }
 
-blockquote, dialog, fiedlset, menu, ol, ul  {
+blockquote, dialog, fiedlset, menu, ol, ul, input, button   {
 	margin: 0;
 	padding: 0;
 }
 
-blockquote, body, dd, dl, figure, hr, input, p, pre, {
+blockquote, body, dd, dl, figure, hr, p, pre {
 	margin: 0;
 }
 
