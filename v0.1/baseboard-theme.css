@@ -39,17 +39,12 @@ code, kbd, pre, samp {
 	color: var(--code-color);
 }
 
-th, optgroup {
-	font: var(--font);
-	color: var(--color);
-}
-
-address, cite, dfn, var, th, optgroup {
+address, cite, th {
 	font: var(--font);
 	color: var(--color);
 }
 
 sub, sup {
-	font: var(--sub-font);
-	color: var(--sub-color);
+	font: var(--sup-font);
+	color: var(--sup-color);
 }
