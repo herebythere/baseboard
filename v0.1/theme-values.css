@@ -17,6 +17,6 @@
 	--h6-color: #676767;
 	--code-font: 1rem/var(--line-height) monospace, monospace;
 	--code-color: #000000;
-	--sub-font: 0.8rem/var(--line-height) monospace, monospace;
-	--sub-color: #000000;
+	--sup-font: 0.8rem monospace, monospace;
+	--sup-color: #000000;
 }
