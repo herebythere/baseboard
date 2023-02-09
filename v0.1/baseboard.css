@@ -28,7 +28,7 @@ a, button, details, input, menu, option, select, textarea {
   cursor: pointer;
 }
 
-textarea:focus, input:focus:not(button, details, input[type=button], input[type=reset], input[type=submit], menu, option, select) {
+textarea:focus, input:focus:not(input[type=button], input[type=reset], input[type=submit]) {
 	cursor: initial;
 }
 
