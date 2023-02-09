@@ -1,8 +1,9 @@
 :root {
-	--background: repeating-linear-gradient(#efefef, #efefef 2rem, #ffffff 2rem, #ffffff 4rem);
+
 	--line-height: 2rem;
-	--font: 1rem/var(--line-height) serif;
 	--color: #121212;
+	--background: repeating-linear-gradient(#efefef, #efefef var(--line-height), #ffffff var(--line-height), #ffffff calc(var(--line-height) * 2));
+	--font: 1rem/var(--line-height) serif;
 	--h1-font: 1.6rem/var(--line-height) serif;
 	--h1-color: #212121;
 	--h2-font: 1.5rem/var(--line-height) serif;
