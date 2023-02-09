@@ -19,4 +19,6 @@
 	--code-color: #000000;
 	--sup-font: 0.8rem monospace, monospace;
 	--sup-color: #000000;
+	--table-font: 1rem/var(--line-height) monospace, monospace;
+	--table-color: #232323;
 }

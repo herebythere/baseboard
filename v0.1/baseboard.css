@@ -11,24 +11,7 @@ legend, td, th {
 	padding: 0;
 }
 
-th, caption {
-	text-align: start;
-}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-iframe, fieldset {
-	border: none;
-}
-
-a, button, details, input, menu, option, select, textarea {
- 	cursor: pointer;
-}
-
-textarea:focus, input:focus:not(input[type=button], input[type=checkbox], input[type=radio], input[type=range], input[type=reset], input[type=submit]) {
-	cursor: initial;
-}
-
