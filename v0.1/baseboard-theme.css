@@ -1,65 +1,55 @@
 :root {
-	background-color: var(--background-color, #FFFFFF);
-	color: var(--font-color, #000000);
-	font-family: var(--font-family, serif);
-	font-size: var(--font-size, 1rem);
-	line-height: var(--line-height, 2rem);
-}
-
-/*
-:root {
-	background: repeating-linear-gradient(#efefef, #efefef 2rem, #ffffff 2rem, #ffffff 4rem);
-}
-*/
-
-a, button, input[type="submit"], input[type="reset"], input[type="button"] {
-  cursor: pointer
-}
-
-button, input {
-	border: none;
-	line-height: var(--line-height, 2rem);
-	margin: 0;
-	padding: 0;
+	background: var(--background);
+	color: var(--color);
+	font: var(--font);
 }
 
 h1 {
-	font-size: var(--font-size-h1, 1.6rem);
-	font-weight: var(--font-weight-h1, normal);
+	font: var(--h1-font);
+	color: var(--h1-color);
 }
 
 h2 {
-	font-size: var(--font-size-h2, 1.5rem);
-	font-weight: var(--font-weight-h1, normal);
+	font: var(--h2-font);
+	color: var(--h2-color);
 }
 
 h3 {
-	font-size: var(--font-size-h3, 1.4rem);
-	font-weight: var(--font-weight-h1, normal);
+	font: var(--h3-font);
+	color: var(--h3-color);
 }
 
 h4 {
-	font-size: var(--font-size-h4, 1.3rem);
-	font-weight: var(--font-weight-h1, normal);
+	font: var(--h4-font);
+	color: var(--h4-color);
 }
 
 h5 {
-	font-size: var(--font-size-h5, 1.2rem);
-	font-weight: var(--font-weight-h5, normal);
+	font: var(--h5-font);
+	color: var(--h5-color);
 }
 
 h6 {
-	font-size: var(--font-size-h6, 1.1rem);
-	font-weight: var(--font-weight-h6, normal);
+	font: var(--h6-font);
+	color: var(--h6-color);
 }
 
-p {
-	font-size: var(--font-size-p, 1.1rem);
-	font-weight: var(--font-weight-p, normal);
+code, kbd, pre, samp {
+	font: var(--code-font);
+	color: var(--code-color);
+}
+
+th, optgroup {
+	font: var(--font);
+	color: var(--color);
+}
+
+address, cite, dfn, var, th, optgroup {
+	font: var(--font);
+	color: var(--color);
 }
 
 sub, sup {
-	font-size: var(--font-size-sub, 0.9rem);
-	font-weight: var(--font-weight-sub, normal);
+	font: var(--sub-font);
+	color: var(--sub-color);
 }
-

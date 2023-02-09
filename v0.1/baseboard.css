@@ -1,43 +1,22 @@
-html {
-	min-height: 100vh;
+blockquote, dialog, fiedlset, menu, ol, ul {
+	margin: 0;
+	padding: 0;
 }
 
-body {
-	min-height: 100%;
+blockquote, body, dd, dl, figure, h1, h1, h2, h3, h4, h5, h6, p, pre {
+	margin: 0;
+}
+
+legend, td, th {
+	padding: 0;
 }
 
 iframe, fieldset {
 	border: none;
 }
 
-blockquote, dialog, fiedlset, menu, ol, ul, input, button   {
-	margin: 0;
-	padding: 0;
-}
-
-blockquote, body, dd, dl, figure, hr, p, pre {
-	margin: 0;
-}
-
-legend, td, textarea, th, option {
-	padding: 0;
-}
-
-h1, h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	margin: 0;
-}
-
-th, optgroup {
-	font-weight: normal;
-}
-
-address, cite, dfn, em, i, var {
-	font-style: normal;
-}
-
-code, kbd, pre, samp {
-	font-family: monospace, monospace;
+th, caption {
+	text-align: start;
 }
 
 table {
@@ -45,7 +24,11 @@ table {
 	border-spacing: 0;
 }
 
-th, caption {
-	text-align: start;
+a, button, details, input, menu, option, select, textarea {
+  cursor: pointer;
+}
+
+textarea:focus, input:focus:not(button, details, input[type=button], input[type=reset], input[type=submit], menu, option, select) {
+	cursor: initial;
 }
 
