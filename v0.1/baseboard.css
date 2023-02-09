@@ -11,10 +11,6 @@ legend, td, th {
 	padding: 0;
 }
 
-iframe, fieldset {
-	border: none;
-}
-
 th, caption {
 	text-align: start;
 }
@@ -22,6 +18,10 @@ th, caption {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+iframe, fieldset {
+	border: none;
 }
 
 a, button, details, input, menu, option, select, textarea {
