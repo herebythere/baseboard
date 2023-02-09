@@ -25,7 +25,7 @@ iframe, fieldset {
 }
 
 a, button, details, input, menu, option, select, textarea {
-  cursor: pointer;
+ 	cursor: pointer;
 }
 
 textarea:focus, input:focus:not(input[type=button], input[type=checkbox], input[type=radio], input[type=range], input[type=reset], input[type=submit]) {
