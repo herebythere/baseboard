@@ -1,9 +1,9 @@
-blockquote, dialog, fiedlset, menu {
+blockquote, dialog, fiedlset, menu, ol, ul {
 	margin: 0;
 	padding: 0;
 }
 
-dd, dl, figure, h1, h1, h2, h3, h4, h5, h6, p, pre, ol, ul {
+dd, dl, figure, h1, h1, h2, h3, h4, h5, h6, p, pre {
 	margin: 0;
 }
 
@@ -24,7 +24,7 @@ iframe, fieldset {
 	border: none;
 }
 
-menu, nav {
+menu, ol, ul {
 	list-style-type: none;
 }
 
