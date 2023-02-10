@@ -16,16 +16,16 @@ table {
 	border-spacing: 0;
 }
 
-th, caption {
-	text-align: start;
-}
-
 iframe, fieldset {
 	border: none;
 }
 
 menu, ol, ul {
 	list-style-type: none;
+}
+
+th, caption {
+	text-align: start;
 }
 
 button, details, input, option, select, textarea {
