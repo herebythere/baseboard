@@ -18,15 +18,11 @@ Baseboad is built with the following design contraints:
 
 ## baseboard-theme.css
 
-`baseboard-theme.css` contains opinionated styling over text-alignment, borders, and input cursors.
+`baseboard-theme.css` contains a set of CSS Custom Properties that affect frequently used HTML elements.
 
-## baseboard-variables.css
+## baseboard-theme-root.css
 
-`baseboard-variables.css` contains a set of CSS Custom Properties to style text.
-
-## baseboard-variables-root.css
-
-`baseboard-variables-root.css` contains a set of CSS Custom Properties that affect the root of an HTML document.
+`baseboard-theme-root.css` contains a set of CSS Custom Properties that affect the root of an HTML document.
 
 ## License
 

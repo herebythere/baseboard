@@ -1,15 +1,44 @@
-th, caption {
-	text-align: start;
+h1 {
+	font: var(--h1-font);
+	color: var(--h1-color);
 }
 
-iframe, fieldset {
-	border: none;
+h2 {
+	font: var(--h2-font);
+	color: var(--h2-color);
 }
 
-button, details, input, option, select, textarea {
- 	cursor: pointer;
+h3 {
+	font: var(--h3-font);
+	color: var(--h3-color);
 }
 
-textarea:focus, input:focus:not(input[type=button], input[type=checkbox], input[type=radio], input[type=range], input[type=reset], input[type=submit]) {
-	cursor: initial;
+h4 {
+	font: var(--h4-font);
+	color: var(--h4-color);
+}
+
+h5 {
+	font: var(--h5-font);
+	color: var(--h5-color);
+}
+
+h6 {
+	font: var(--h6-font);
+	color: var(--h6-color);
+}
+
+code, pre, samp {
+	font: var(--code-font);
+	color: var(--code-color);
+}
+
+sub, sup {
+	font: var(--sup-font);
+	color: var(--sup-color);
+}
+
+table {
+	color: var(--table-color);
+	font: var(--table-font);
 }
