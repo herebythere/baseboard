@@ -3,7 +3,7 @@ blockquote, dialog, fiedlset, menu, ol, ul {
 	padding: 0;
 }
 
-body, dd, dl, figure, h1, h1, h2, h3, h4, h5, h6, p, pre {
+dd, dl, figure, h1, h1, h2, h3, h4, h5, h6, p, pre {
 	margin: 0;
 }
 
@@ -14,4 +14,24 @@ legend, td, th {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+iframe, fieldset {
+	border: none;
+}
+
+menu, ol, ul {
+	list-style-type: none;
+}
+
+th, caption {
+	text-align: start;
+}
+
+button, details, input, option, select, textarea {
+ 	cursor: pointer;
+}
+
+textarea:focus, input:focus:not(input[type=button], input[type=checkbox], input[type="image"] input[type=radio], input[type=range], input[type=reset], input[type=submit]) {
+	cursor: initial;
 }
