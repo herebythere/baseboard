@@ -2,6 +2,9 @@
 	Browser Concerns
 	
 	It's impossible to account for all browser discrepencies.
+	
+	Record which properties are explicitly set in default styles for each browser.
+	Only record browsers and properties that are relative to the intention of baseboard.
 
 	https://searchfox.org/mozilla-central/source/layout/style/res/html.css
 	https://github.com/WebKit/WebKit/blob/main/Source/WebCore/css/html.css
