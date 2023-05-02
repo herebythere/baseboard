@@ -1,14 +1,14 @@
 # Baseboard
 
-Baseboard is a minimalist CSS stylesheet for web projects.
+Baseboard is a minimalist CSS stylesheet.
 
 ## About
 
-Baseboad is built with the following contraints :
+Baseboad is built with the following contraints:
 - target firefox, webkit, and chromium browsers
 - deprecated elements are not inlcuded
 - nothing is assumed about typography
-- styling input element across browsers is currently not possible
+- styling input elements across browsers is not (currently) possible
 
 ## License
 
