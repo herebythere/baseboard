@@ -1,20 +1,31 @@
 # Baseboard
 
-Baseboard is a CSS stylesheet to keep styles consistent between browsers.
+Baseboard helps keep styles consistent between browsers.
 
 ## About
 
 Baseboard removes the following default styles:
+
 - paddings
 - margins
 - text-alignments
 - borders
 
-Baseboad is built with the following contraints:
-- only firefox, webkit, and chromium browsers are considered
-- deprecated elements are not inlcuded
-- nothing is assumed about typography
+Baseboard is built with the following contraints:
+
 - styling input elements across browsers is not (currently) possible
+- deprecated elements are not inlcuded
+- typography is assumed to be covered in a "theme"
+- firefox, webkit, and chromium browsers are considered
+
+## How to use
+
+Keeping it simple <3
+
+Copy `./v0.1/baseboard.css` into a project.
+
+Copy `./v0.1/baseboard_inputs.css` into a project for consistent `input`
+interactions.
 
 ## License
 

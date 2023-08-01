@@ -27,11 +27,3 @@ menu, ol, ul {
 th, caption {
 	text-align: start;
 }
-
-button, details, input, option, select, textarea {
- 	cursor: pointer;
-}
-
-textarea:focus, input:focus:not(input[type=button], input[type=checkbox], input[type=image], input[type=radio], input[type=range], input[type=reset], input[type=submit]) {
-	cursor: initial;
-}
