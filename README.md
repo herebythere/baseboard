@@ -1,6 +1,7 @@
 # Baseboard
 
-Baseboard helps keep styles consistent between browsers.
+Baseboard keeps styles consistent between firefox, webkit, and chromium
+browsers.
 
 ## About
 
@@ -8,19 +9,17 @@ Baseboard removes the following default styles:
 
 - paddings
 - margins
-- text-alignments
 - borders
+- text-alignments
 
 Baseboard is built with the following contraints:
 
-- styling input elements across browsers is not (currently) possible
-- deprecated elements are not inlcuded
-- typography is assumed to be covered in a "theme"
-- firefox, webkit, and chromium browsers are considered
+- deprecated elements are not considered
+- typography is styled in a later theme
+- input elements cannot be styled consistently across browsers through CSS alone
+  (Aug 2023)
 
 ## How to use
-
-Keeping it simple <3
 
 Copy `./v0.1/baseboard.css` into a project.
 
